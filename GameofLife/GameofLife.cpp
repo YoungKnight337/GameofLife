@@ -15,6 +15,10 @@ int main()
     Grid Board;
 
     Board.Iniitialize();
+    while (WindowShouldClose() == false)
+    {
+        Board.Update();
+    }
 
 }
 
