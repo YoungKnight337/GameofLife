@@ -7,6 +7,8 @@ class Cell;
 class Grid
 {
 private:
+	int row;
+	int colum;
 
 public:
 	Grid();
