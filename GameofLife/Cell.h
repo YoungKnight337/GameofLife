@@ -4,8 +4,10 @@
 class Cell
 {
 private:
-Vector2 position;
+	int height;
+	int width;
 	bool alive;
+	Vector2 position;
 	Color color;
 public:
 	Cell();

@@ -11,7 +11,7 @@ private:
 	int colum;
 
 public:
-	Grid();
+	Grid(int row,int column);
 	~Grid();
 	void Iniitialize();
 	void Update();
