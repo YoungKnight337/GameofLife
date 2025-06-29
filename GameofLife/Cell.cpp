@@ -22,17 +22,22 @@ void Cell::Draw()
 
 void Cell::Update()
 {
-
-	//1. A live cell with fewer than two live neighbors dies. 
-	// if(active && neighbors < 2)
-	//	active = false;
-	//2. A live cell with more than three live neighbors also dies.
-	// if(active && neighbors > 3)
-	//	active = false;
-	//3. A live cell with exactly two or three live neighbors lives.
-	// if(active && (neighbors == 2 || neighbors == 3))
-	//	active = true;
-	//4. A dead cell with exactly three live neighbors becomes alive.
-	// if(!active && neighbors == 3)
-	//	acitve = true;
+	//if active
+	if(active)
+	{
+		//if neighbors are less than two or more than three
+		if(neighbors < 2||neighbors > 3)
+			active = false;
+		// if neighbors are exactly two or three
+		if((neighbors == 2 || neighbors == 3))
+			active = true;
+	}
+	//if (!active)
+	else 
+	{
+		//A dead cell with exactly three live neighbors becomes alive.
+		if (neighbors == 3)
+			active = true;
+	}
+	
 }

@@ -6,7 +6,7 @@ class Cell
 private:
 	int height;
 	int width;
-	bool alive;
+	bool active;
 	Vector2 position;
 	Color color;
 public:
