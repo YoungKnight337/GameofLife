@@ -2,8 +2,7 @@
 
 Grid::Grid(int row, int column)
 {
-
-
+	Cell cells[row][column];
 }
 
 Grid::~Grid()
