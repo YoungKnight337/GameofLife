@@ -2,15 +2,10 @@
 
 Cell::Cell()
 {
-
+	color = WHITE;
 }
 
 Cell::~Cell()
-{
-
-}
-
-void Cell::Initialize()
 {
 
 }

@@ -12,7 +12,6 @@ private:
 public:
 	Cell();
 	~Cell();
-	void Initialize();
 	void Update();
 	void Draw();
 };
