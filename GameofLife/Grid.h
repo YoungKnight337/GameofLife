@@ -16,6 +16,7 @@ public:
 	Grid(int row,int column);
 	~Grid();
 	void Iniitialize();
+	void Draw();
 	void Update();
 };
 

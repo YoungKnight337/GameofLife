@@ -16,6 +16,11 @@ void Grid::Iniitialize()
 
 }
 
+void Grid::Draw()
+{
+
+}
+
 void Grid::Update()
 {
 

@@ -12,13 +12,20 @@ int main()
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Space Shooter");
     SetTargetFPS(FRAME_RATE);
 
-    Grid Board;
+    Grid board;
 
-    Board.Iniitialize();
+    board.Iniitialize();
     while (WindowShouldClose() == false)
     {
-        Board.Update();
+        board.Update();  
+        
+        BeginDrawing();
+        ClearBackground(WHITE);
+
+        board.Draw();
+        EndDrawing();
     }
-
 }
-
+CloseWindow();
+return 0;
+}
