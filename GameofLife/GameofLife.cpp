@@ -25,7 +25,8 @@ int main()
         board.Draw();
         EndDrawing();
     }
+    
+    CloseWindow();
 }
-CloseWindow();
-return 0;
-}
+
+
