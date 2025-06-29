@@ -17,7 +17,7 @@ void Cell::Initialize()
 
 void Cell::Draw()
 {
-
+	DrawRectangle(position.x, position.y, width, height, color);
 }
 
 void Cell::Update()
