@@ -10,10 +10,8 @@ class Grid
 private:
 	int row;
 	int column;
-	Cell cells[row][column];
-
 public:
-	Grid(int row,int column);
+	Grid(int a,int b);
 	~Grid();
 	void Iniitialize();
 	void Draw();

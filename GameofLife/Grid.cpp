@@ -1,8 +1,9 @@
 #include "Grid.h"
 
-Grid::Grid(int row, int column)
+Grid::Grid(int a, int b)
 {
-	Cell cells[row][column];
+	a = row;
+	b = column;
 }
 
 Grid::~Grid()
