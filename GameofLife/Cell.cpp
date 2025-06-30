@@ -2,7 +2,10 @@
 
 Cell::Cell()
 {
-	color = WHITE;
+	if (active)
+		color = BLACK;
+	else
+		color = WHITE;
 }
 
 Cell::~Cell()
