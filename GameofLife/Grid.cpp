@@ -24,10 +24,13 @@ void Grid::Iniitialize()
 
 void Grid::Draw()
 {
-
+	
 }
 
 void Grid::Update()
 {
-
+	for (Cell : Cells)
+	{
+		Cell::Update();
+	}
 }
