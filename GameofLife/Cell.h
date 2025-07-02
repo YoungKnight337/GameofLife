@@ -4,8 +4,8 @@
 class Cell
 {
 private:
-	int height;
-	int width;
+	int height = 20;
+	int width = 20;
 	bool active;
 	Vector2 position;
 	Color color;
