@@ -10,7 +10,6 @@ class Grid
 private:
 	int row;
 	int column;
-	Cell[][]cells;
 public:
 	Grid(int a,int b);
 	~Grid();
