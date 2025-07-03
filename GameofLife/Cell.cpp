@@ -15,6 +15,7 @@ Cell::~Cell()
 
 void Cell::Draw()
 {
+	if(active)
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
