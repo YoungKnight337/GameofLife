@@ -1,6 +1,6 @@
 #include "Grid.h"
 
-Grid::Grid(int a, int b)
+Grid::Grid()
 {
 
 }

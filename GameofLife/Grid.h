@@ -14,7 +14,7 @@ private:
 	int column;
 	static int cellGrid[GRID_ROW][GRID_COLUMN];
 public:
-	Grid(int a,int b);
+	Grid();
 	~Grid();
 	void Iniitialize();
 	void Draw();
