@@ -2,6 +2,8 @@
 #include "raylib.h"
 #include "Cell.h"
 
+#define GRID_ROW    100
+#define GRID_COLUMN 100
 
 class Cell;
 
@@ -10,7 +12,7 @@ class Grid
 private:
 	int row;
 	int column;
-	int cellGrid[100][100];
+	static int cellGrid[GRID_ROW][GRID_COLUMN];
 public:
 	Grid(int a,int b);
 	~Grid();
