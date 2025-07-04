@@ -18,7 +18,7 @@ void Grid::Iniitialize()
 	{
 		for (int j = 0; j < column; j++)
 		{
-
+			Cell cell(false);
 		}
 	}
 }
