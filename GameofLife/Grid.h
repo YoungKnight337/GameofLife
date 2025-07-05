@@ -10,8 +10,6 @@ class Cell;
 class Grid
 {
 private:
-	int row;
-	int column;
 	static int cellGrid[GRID_ROW][GRID_COLUMN];
 public:
 	Grid();
