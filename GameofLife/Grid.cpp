@@ -28,6 +28,7 @@ void Grid::Draw()
 		for (int j = 0; j < GRID_COLUMN ; j++)
 		{
 			Cell cell(false);
+			Cell cell(true);
 		}
 	}
 }
