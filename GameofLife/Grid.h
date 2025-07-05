@@ -2,8 +2,8 @@
 #include "raylib.h"
 #include "Cell.h"
 
-#define GRID_ROW    100
-#define GRID_COLUMN 100
+constexpr int GRID_ROW    = 100;
+constexpr int GRID_COLUMN = 100;
 
 class Cell;
 
