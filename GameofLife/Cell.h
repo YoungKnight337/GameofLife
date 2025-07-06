@@ -6,6 +6,7 @@ class Cell
 private:
 	int height = 20;
 	int width = 20;
+	int neighbors = 0;
 	bool active;
 	Vector2 position;
 	Color color;
