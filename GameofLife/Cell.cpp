@@ -1,6 +1,6 @@
 #include "Cell.h"
 
-Cell::Cell(bool active)
+Cell::Cell()
 {
 	if (active)
 		color = BLACK;

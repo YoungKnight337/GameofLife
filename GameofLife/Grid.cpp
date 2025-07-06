@@ -16,7 +16,7 @@ void Grid::Iniitialize()
 	{
 		for (int j = 0; j < GRID_COLUMN; j++)
 		{
-			Cell cell(false);
+			Cell cell;
 		}
 	}
 }
@@ -27,8 +27,7 @@ void Grid::Draw()
 	{
 		for (int j = 0; j < GRID_COLUMN ; j++)
 		{
-			Cell cell(false);
-			Cell cell(true);
+			Cell cell;
 		}
 	}
 }
@@ -39,8 +38,8 @@ void Grid::Update()
 	{
 		for (int j = 0; j < GRID_COLUMN; j++)
 		{
-			Cell cell(false);
-			Cell cell(true);
+
+			Cell cell;
 		}
 	}
 }

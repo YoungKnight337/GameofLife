@@ -11,7 +11,7 @@ private:
 	Vector2 position;
 	Color color;
 public:
-	Cell(bool active);
+	Cell();
 	~Cell();
 	void Update();
 	void Draw();
