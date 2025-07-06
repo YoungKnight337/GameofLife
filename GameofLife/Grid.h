@@ -5,7 +5,7 @@
 constexpr int GRID_ROW    = 100;
 constexpr int GRID_COLUMN = 100;
 
-class Cell;
+class Cell cell;
 
 class Grid
 {
