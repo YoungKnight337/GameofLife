@@ -35,5 +35,12 @@ void Grid::Draw()
 
 void Grid::Update()
 {
-	
+	for (int i = 0; i < GRID_ROW; i++)
+	{
+		for (int j = 0; j < GRID_COLUMN; j++)
+		{
+			Cell cell(false);
+			Cell cell(true);
+		}
+	}
 }
