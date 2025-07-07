@@ -2,20 +2,17 @@
 #include "raylib.h"
 #include "Cell.h"
 
-constexpr int GRID_ROW    = 100;
-constexpr int GRID_COLUMN = 100;
-
 class Cell cell;
 
 class Grid
 {
 private:
-	static int cellGrid[GRID_ROW][GRID_COLUMN];
+	static int cellGrid;
 public:
 	Grid();
 	~Grid();
-	void Iniitialize();
-	void Draw();
-	void Update();
+	void Iniitialize(int a, int b);
+	void Draw(int a, int b);
+	void Update(int a, int b);
 };
 

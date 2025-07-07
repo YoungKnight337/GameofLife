@@ -10,33 +10,33 @@ Grid::~Grid()
 
 }
 
-void Grid::Iniitialize()
+void Grid::Iniitialize(int a, int b)
 {
-	for (int i = 0; i < GRID_ROW; i++)
+	for (int i = 0; i < a; i++)
 	{
-		for (int j = 0; j < GRID_COLUMN; j++)
+		for (int j = 0; j < b; j++)
 		{
 			cell;
 		}
 	}
 }
 
-void Grid::Draw()
+void Grid::Draw(int a, int b)
 {
-	for (int i = 0; i < GRID_ROW; i++)
+	for (int i = 0; i < a; i++)
 	{
-		for (int j = 0; j < GRID_COLUMN ; j++)
+		for (int j = 0; j < b ; j++)
 		{
 			cell.Draw();
 		}
 	}
 }
 
-void Grid::Update()
+void Grid::Update(int a, int b)
 {
-	for (int i = 0; i < GRID_ROW; i++)
+	for (int i = 0; i < a; i++)
 	{
-		for (int j = 0; j < GRID_COLUMN; j++)
+		for (int j = 0; j < b; j++)
 		{
 
 			cell.Update();
