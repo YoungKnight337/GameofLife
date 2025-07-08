@@ -15,5 +15,6 @@ public:
 	~Cell();
 	void Update();
 	void Draw();
+	void Rules();
 };
 
