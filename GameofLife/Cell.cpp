@@ -23,6 +23,7 @@ void Cell::Update()
 {
 	Rules();
 }
+
 void Cell::Rules()
 {
 	//if active
