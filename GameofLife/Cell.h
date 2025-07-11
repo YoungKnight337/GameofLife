@@ -14,6 +14,7 @@ public:
 	Cell();
 	~Cell();
 	void Update();
+	void Activate();
 	void Draw();
 	void Rules();
 };
