@@ -32,7 +32,6 @@ void Grid::Draw(int a, int b)
 	}
 }
 
-
 void Grid::Update(int a, int b)
 {
 	for (int i = 0; i < a; i++)
