@@ -17,5 +17,6 @@ public:
 	void Activate();
 	void Draw();
 	void Rules();
+	void GetNeighbors();
 };
 
