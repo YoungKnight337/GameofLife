@@ -12,7 +12,7 @@ Grid::~Grid()
 
 void Grid::Seed()
 {
-
+	//Plant Active Cells within the Grid
 }
 void Grid::Iniitialize(int a, int b)
 {
