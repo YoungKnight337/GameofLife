@@ -1,4 +1,5 @@
 #pragma once
+#include <list>
 #include "raylib.h"
 
 class Cell
@@ -6,7 +7,7 @@ class Cell
 private:
 	int height = 20;
 	int width = 20;
-	int neighbors = 0;
+	std::list<int> neighbors;
 	bool active;
 	Vector2 position;
 	Color color;
