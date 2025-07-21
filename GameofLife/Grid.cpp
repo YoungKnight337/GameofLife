@@ -10,6 +10,10 @@ Grid::~Grid()
 
 }
 
+void Grid::Seed()
+{
+
+}
 void Grid::Iniitialize(int a, int b)
 {
 	for (int i = 0; i < a; i++)
