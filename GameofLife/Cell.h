@@ -16,6 +16,7 @@ public:
 	~Cell();
 	void Update();
 	void Activate();
+	void NewStatus();
 	void Draw();
 	void Rules();
 	void GetNeighbors();
