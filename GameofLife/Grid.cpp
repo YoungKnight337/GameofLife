@@ -10,12 +10,10 @@ Grid::~Grid()
 
 }
 
-void Grid::Seed()
-{
-	//Plant Active Cells within the Grid
-}
+
 void Grid::Iniitialize(int a, int b)
 {
+	Seed();
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < b; j++)
@@ -34,6 +32,11 @@ void Grid::Draw(int a, int b)
 			cell.Draw();
 		}
 	}
+}
+
+void Grid::Seed()
+{
+	//Plant Active Cells within the Grid
 }
 
 void Grid::Update(int a, int b)
