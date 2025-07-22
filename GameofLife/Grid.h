@@ -8,6 +8,8 @@ class Grid
 {
 private:
 	static int cellGrid;
+	int rows;
+	int columns;
 public:
 	Grid();
 	~Grid();
