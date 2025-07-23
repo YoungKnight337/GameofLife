@@ -17,7 +17,8 @@ void Grid::Iniitialize(int a, int b)
 	//We wish to make a Block to each square on the board, and store that Block in a dictionary(self.block list).
 	//Remember from Exercise 4.3 that Blocks can be any color listed in rgb.txt!
 	//Read the comments in the code and think about the best way to do this.
-	//Note that you just want to create the Block; you do not want to set it to live!Also, be sure to delete the raise Exception line.
+	//Note that you just want to create the Block; you do not want to set it to live!
+	//Also, be sure to delete the raise Exception line.
 
 	Seed();
 	for (int i = 0; i < a; i++)
