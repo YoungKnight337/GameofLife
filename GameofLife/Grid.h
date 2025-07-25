@@ -10,6 +10,7 @@ private:
 	static int cellGrid;
 	int rows;
 	int columns;
+	ccells[rows][columns];
 public:
 	Grid();
 	~Grid();
