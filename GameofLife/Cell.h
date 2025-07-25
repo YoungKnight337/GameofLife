@@ -17,7 +17,6 @@ public:
 	void Update();
 	void Activate();
 	void NewStatus();
-	void GetNeighbors();
 	void Draw();
 	void Rules();
 	void GetNeighbors();
