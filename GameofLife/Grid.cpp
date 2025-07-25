@@ -20,7 +20,6 @@ void Grid::Iniitialize(int a, int b)
 	//Note that you just want to create the Block; you do not want to set it to live!
 	//Also, be sure to delete the raise Exception line.
 
-	Seed();
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < b; j++)
