@@ -13,6 +13,10 @@ Cell::~Cell()
 
 }
 
+int Cell::CheckNeighbors()
+{
+
+}
 void Cell::Draw()
 {
 	if(active)
