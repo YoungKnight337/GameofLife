@@ -14,6 +14,7 @@ private:
 public:
 	Cell();
 	~Cell();
+	int CheckNeighbors();
 	void Update();
 	void Activate();
 	void NewStatus();
