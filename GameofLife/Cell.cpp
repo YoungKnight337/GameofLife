@@ -15,6 +15,10 @@ Cell::~Cell()
 
 int Cell::CheckNeighbors()
 {
+
+	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. Not all CAs use this.
+	//Others use the 4-cell Von Neumann neighborhood, which excludes diagonal neighbors.
+
 	/*
 		Input: A square tessellation, T, containing a connected component P of black cells.
 		Output: A sequence B (b1, b2, ..., bk) of boundary pixels i.e. the contour.
