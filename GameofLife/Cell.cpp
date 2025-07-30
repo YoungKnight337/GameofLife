@@ -63,6 +63,7 @@ void Cell::Draw()
 void Cell::Update()
 {
 	GetNeighbors();
+	CheckNeighbors();
 	Rules();
 }
 
