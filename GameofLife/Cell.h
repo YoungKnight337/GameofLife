@@ -7,7 +7,7 @@ class Cell
 private:
 	int height = 20;
 	int width = 20;
-	std::list<int> neighbors;
+	int neighbors;
 	bool active;
 	Vector2 position;
 	Color color;
