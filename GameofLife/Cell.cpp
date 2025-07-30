@@ -96,7 +96,3 @@ void Cell::GetNeighbors()
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
 }
 
-void Cell::NewStatus()
-{
-
-}
