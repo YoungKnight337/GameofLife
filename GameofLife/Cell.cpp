@@ -16,9 +16,7 @@ Cell::~Cell()
 int Cell::CheckNeighbors()
 {
 
-	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. Not all CAs use this.
-	//Others use the 4-cell Von Neumann neighborhood, which excludes diagonal neighbors.
-
+	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	/*
 		Input: A square tessellation, T, containing a connected component P of black cells.
 		Output: A sequence B (b1, b2, ..., bk) of boundary pixels i.e. the contour.
@@ -89,10 +87,14 @@ void Cell::Rules()
 
 void Cell::GetNeighbors()
 {
-	// Function not implemented 
 	//Return a list of neighboring blocks
+	//if cells position is adjacent to another, add to neighbors list
+	if(position.x)
 	 neighbors; 
+
 	//Neighbors can be horizontally, vertically, or diagonally adjacent so a block in the center of the board would have 8 neighbors,  while one in a corner would only have 3.
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
 }
+
+//
 
