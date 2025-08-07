@@ -11,7 +11,7 @@ Grid::~Grid()
 }
 
 
-void Grid::Iniitialize(int a, int b)
+void Grid::Iniitialize(int cells, int a, int b)
 {
 	//In the init method of the Board class, you need to finish laying out the board. Currently, only the board is drawn.
 	//We wish to make a Block to each square on the board, and store that Block in a dictionary(self.block list).
@@ -43,7 +43,7 @@ void Grid::Draw(int a, int b)
 void Grid::Seed()
 {
 	//Plant Active Cells within the Grid
-	// cell.position = { i , j };
+	//cell.position = { i , j };
 	//if(cell.GetNeighbors() == 3 && cell.active)
 	//	cell.Activate();
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
