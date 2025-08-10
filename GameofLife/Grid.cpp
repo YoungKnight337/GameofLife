@@ -11,7 +11,7 @@ Grid::~Grid()
 }
 
 
-void Grid::Iniitialize(int cells, int a, int b)
+void Grid::Iniitialize(int cells,  int a, int b)
 {
 	//In the init method of the Board class, you need to finish laying out the board. Currently, only the board is drawn.
 	//We wish to make a Block to each square on the board, and store that Block in a dictionary(self.block list).
@@ -27,7 +27,7 @@ void Grid::Iniitialize(int cells, int a, int b)
 			cell;
 		}
 	}
-}
+} 
 
 void Grid::Draw(int a, int b)
 {
