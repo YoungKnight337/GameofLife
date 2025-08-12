@@ -8,8 +8,8 @@ private:
 	int height = 20;
 	int width = 20;
 	int neighbors;
-	std::list<Cell> collection;
 	bool active;
+	std::list<Cell> collection;
 	Vector2 position;
 	Color color;
 public:
