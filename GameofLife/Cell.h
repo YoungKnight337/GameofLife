@@ -18,7 +18,7 @@ public:
 	void Update();
 	void Draw();
 	void Rules();
-	void GetNeighbors();
+	int GetNeighbors(int neighbors);
 	
 	Vector2 GetPosition() { return position; }
 	int CheckNeighbors();
