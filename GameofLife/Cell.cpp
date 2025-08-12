@@ -25,10 +25,6 @@ void Cell::Update()
 	Rules();
 }
 
-void Cell::Activate()
-{
-	active = true;
-}
 void Cell::Rules()
 {
 	if (active)
