@@ -21,5 +21,7 @@ public:
 	void Draw();
 	void Rules();
 	void GetNeighbors();
+	Vector2 GetPosition() { return position; }
+	bool GetState(bool active) { return active; }
 };
 
