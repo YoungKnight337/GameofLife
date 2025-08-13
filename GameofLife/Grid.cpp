@@ -44,8 +44,8 @@ void Grid::Seed()
 {
 	int neighbors;
 	//Plant Active Cells within the Grid
-	cell.GetPosition() = {i , j};
-	if(cell.GetNeighbors(neighbors)==3 && cell.GetState(true))
+	cell.GetPosition() = {position.x , position.y};
+	if(cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
 		cell.SetState(true);
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
 	//If you get stuck, review the implementation of random seed to see how we can get the blocks to be visible on the board.
