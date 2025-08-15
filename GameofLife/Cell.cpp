@@ -21,7 +21,8 @@ void Cell::Draw()
 
 void Cell::Update()
 {
-	GetNeighbors();
+	int neighbors = 0;
+	GetNeighbors(neighbors);
 	Rules();
 }
 
