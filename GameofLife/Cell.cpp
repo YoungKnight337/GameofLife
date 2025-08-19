@@ -76,7 +76,6 @@ int Cell::CheckNeighbors()
 					(advance the current pixel c to the next clockwise pixel in M(p) and update backtrack)
 					Let b = c
 					Let c = next clockwise pixel (from b) in M(p).
-					end If
 				}
 			}
 	*/
