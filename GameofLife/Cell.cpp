@@ -50,9 +50,9 @@ int Cell::CheckNeighbors()
 		Input: A square tessellation, T, containing a connected component P of black cells.
 		Output: A sequence B (b1, b2, ..., bk) of boundary pixels i.e. the contour.
 		Define M(a) to be the Moore neighborhood of pixel a.
-		Let p denote the current boundary pixel.
-		Let c denote the current pixel under consideration i.e. c is in M(p).
-		Let b denote the backtrack of c (i.e. neighbor pixel of p that was previously tested)
+		Let p denote the current boundary pixel. int p?;
+		Let c denote the current pixel under consideration i.e. c is in M(p). int c?;
+		Let b denote the backtrack of c (i.e. neighbor pixel of p that was previously tested) int b?S;
 
 		Begin
 			Set B to be empty.
