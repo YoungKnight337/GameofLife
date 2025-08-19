@@ -68,8 +68,8 @@ int Cell::CheckNeighbors()
 					insert c in B
 					Let b = p
 					Let p = c
-					(backtrack: move the current pixel c to the pixel from which p was entered)
-					Let c = next clockwise pixel (from b) in M(p).
+					(backtrack: move the current pixel c to the pixel from which p was entered) //Loop?
+					Let c = next clockwise pixel (from b) in M(p).  
 				}
 				else
 				{
