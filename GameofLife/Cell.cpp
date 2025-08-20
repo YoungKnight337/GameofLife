@@ -62,7 +62,7 @@ int Cell::CheckNeighbors()
 			Set the current boundary point p to s i.e. p=s
 			Let b = the pixel from which s was entered during the image scan.
 			Set c to be the next clockwise pixel (from b) in M(p).
-			While c not equal to s do
+			while(c != s)
 			{
 				if (c is black)
 				{
