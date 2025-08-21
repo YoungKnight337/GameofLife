@@ -2,6 +2,8 @@
 #include <list>
 #include "raylib.h"
 
+//Cell has two states. Alive or Dead: bool active
+//Cell has eight neighbors: int neighbors?
 class Cell
 {
 private:

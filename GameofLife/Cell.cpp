@@ -64,7 +64,7 @@ int Cell::CheckNeighbors()
 			Set c to be the next clockwise pixel (from b) in M(p).
 			while(c != s)
 			{
-				if (c is black)
+				if (c == black)
 				{
 					insert c in B
 					Let b = p
