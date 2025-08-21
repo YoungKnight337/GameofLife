@@ -51,6 +51,8 @@ int Cell::CheckNeighbors()
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	//Neighbourhood (graph theory)
 	//Adjacent Vertex
+	//The neighbourhood of a vertex v in a graph G is the subgraph of G induced by all vertices adjacent to v, i.e.
+	// The graph composed of the vertices adjacent to v and all edges connecting vertices adjacent to v.
 	/*
 		Define M(a) to be the Moore neighborhood of pixel a: pixel a;
 		Let p denote the current boundary pixel: pixel p;
