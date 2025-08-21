@@ -50,10 +50,10 @@ int Cell::CheckNeighbors()
 
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	/*
-		Define M(a) to be the Moore neighborhood of pixel a.
-		Let p denote the current boundary pixel. pixel p?;
-		Let c denote the current pixel under consideration i.e. c is in M(p). pixel c?;
-		Let b denote the backtrack of c (i.e. neighbor pixel of p that was previously tested) pixel b?
+		Define M(a) to be the Moore neighborhood of pixel a: pixel a;
+		Let p denote the current boundary pixel: pixel p;
+		Let c denote the current pixel under consideration i.e. c is in M(p). pixel c;
+		Let b denote the backtrack of c (i.e. neighbor pixel of p that was previously tested) pixel b;
 
 		Begin
 			Set B to be empty.
