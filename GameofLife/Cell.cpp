@@ -63,9 +63,9 @@ int Cell::CheckNeighbors()
 			Set B to be empty.
 			From bottom to top and left to right scan the cells of T until a black pixel, s, of P is found.
 			Insert s in B.
-			Set the current boundary point p to s i.e. p=s
-			Let b = the pixel from which s was entered during the image scan.
-			Set c to be the next clockwise pixel (from b) in M(p).
+			Set the current boundary point p to s i.e. p = s
+			Let b = the pixel from which s was entered during the image scan. //Image Scan??
+			Set c to be the next clockwise pixel (from b) in M(p). 
 			while(c != s)
 			{
 				if (c == black)
