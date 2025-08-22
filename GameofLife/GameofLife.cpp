@@ -6,7 +6,7 @@
 int main()
 {
     constexpr int SCREEN_WIDTH = 800;
-    constexpr int SCREEN_HEIGHT = 700;
+    constexpr int SCREEN_HEIGHT = 450;
     constexpr int FRAME_RATE = 60;
 
     constexpr int GRID_ROW = 100;
