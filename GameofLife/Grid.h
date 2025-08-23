@@ -2,8 +2,6 @@
 #include "raylib.h"
 #include "Cell.h"
 
-#define GRID_HORIZONTAL 100
-#define GRID_VERTICAL   100
 //https://github.com/raysan5/raylib-games/tree/master
 
 class Cell cell;
@@ -14,7 +12,7 @@ private:
 	static int cellGrid;
 	//int rows;
 	//int columns;
-	int cellGrid[GRID_HORIZONTAL][GRID_VERTICAL];
+	//int cellGrid[GRID_HORIZONTAL][GRID_VERTICAL];
 
 public:
 	Grid();

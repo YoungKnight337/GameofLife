@@ -2,6 +2,8 @@
 #include "raylib.h"
 #include "Grid.h"
 
+#define GRID_HORIZONTAL 100
+#define GRID_VERTICAL   100
 
 int main()
 {
