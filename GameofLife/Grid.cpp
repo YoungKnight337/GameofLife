@@ -15,8 +15,6 @@ void Grid::Iniitialize(int a, int b)
 {
 	//In the init method of the Board class, you need to finish laying out the board. Currently, only the board is drawn.
 	//We wish to make a Block to each square on the board, and store that Block in a dictionary(self.block list).
-	//Remember from Exercise 4.3 that Blocks can be any color listed in rgb.txt!
-	//Read the comments in the code and think about the best way to do this.
 	//Note that you just want to create the Block; DO NOT SET TO LIVE
 	//Also, be sure to delete the raise Exception line.
 
