@@ -41,8 +41,8 @@ void Grid::Draw(int a, int b)
 void Grid::Seed()
 {
 	int neighbors{};
-	Vector2 i = cell.GetPosition().x;
-	Vector2 j = cell.GetPosition().y;
+	float i = cell.GetPosition().x;
+	float j = cell.GetPosition().y;
 	//Plant Active Cells within the Grid
 	cell.GetPosition() = {i , j};
 	if(cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
