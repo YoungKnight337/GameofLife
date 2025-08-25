@@ -67,6 +67,7 @@ void Grid::Update(int a, int b)
 		{
 
 			cell.Update();
+			Seed();
 		}
 	}
 }
