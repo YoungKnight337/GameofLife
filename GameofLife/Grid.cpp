@@ -40,7 +40,7 @@ void Grid::Draw(int a, int b)
 
 void Grid::Seed()
 {
-	int neighbors;
+	int neighbors{};
 	float i;
 	float j;
 	//Plant Active Cells within the Grid
