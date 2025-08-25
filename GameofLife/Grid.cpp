@@ -41,8 +41,10 @@ void Grid::Draw(int a, int b)
 void Grid::Seed()
 {
 	int neighbors{};
+	Vector2 i = cell.GetPosition().x;
+	Vector2 j = cell.GetPosition().y;
 	//Plant Active Cells within the Grid
-	cell.GetPosition() = {cell.GetPosition().x , cell.GetPosition().y};
+	cell.GetPosition() = {i , j};
 	if(cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
 		cell.SetState(true);
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
