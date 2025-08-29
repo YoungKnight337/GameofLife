@@ -26,7 +26,7 @@ void Cell::Update()
 	Rules();
 }
 
-void Cell::Rules()
+/*void Cell::Rules()
 {
 	if (active)
 	{
@@ -40,7 +40,7 @@ void Cell::Rules()
 		if (neighbors == 3)
 			active = true;
 	}
-}
+}*/
 
 //Input: A square tessellation, T, containing a connected component P of black cells.
 //Output: A sequence B(b1, b2, ..., bk) of boundary pixels i.e.the contour.
