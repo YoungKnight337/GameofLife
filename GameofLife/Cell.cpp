@@ -23,7 +23,7 @@ void Cell::Update()
 {
 	int neighbors = 0;
 	GetNeighbors(neighbors);
-	Rules();
+
 }
 
 /*void Cell::Rules()
