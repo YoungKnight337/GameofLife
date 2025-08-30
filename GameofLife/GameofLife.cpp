@@ -11,23 +11,20 @@ int main()
     constexpr int SCREEN_HEIGHT = 450;
     constexpr int FRAME_RATE = 60;
 
-    constexpr int GRID_ROW = 100;
-    constexpr int GRID_COLUMN = 100;
-
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Space Shooter");
     SetTargetFPS(FRAME_RATE);
 
     Grid board;
 
-    board.Iniitialize(GRID_ROW, GRID_COLUMN);
+    board.Iniitialize(GRID_HORIZONTAL, GRID_VERTICAL);
     while (WindowShouldClose() == false)
     {
-        board.Update(GRID_ROW, GRID_COLUMN);
+        board.Update(GRID_HORIZONTAL, GRID_VERTICAL);
         
         BeginDrawing();
         ClearBackground(WHITE);
 
-        board.Draw(GRID_ROW,GRID_COLUMN);
+        board.Draw(GRID_HORIZONTAL, GRID_VERTICAL);
         EndDrawing();
     }
     

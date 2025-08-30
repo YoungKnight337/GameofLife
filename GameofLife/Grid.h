@@ -9,7 +9,7 @@ class Cell cell;
 class Grid
 {
 private:
-	static int cellGrid;
+	//static int cellGrid;
 	int GRID_HORIZONTAL = 100;
 	int GRID_VERTICAL = 100;
 	int cellGrid[GRID_HORIZONTAL][GRID_VERTICAL];
