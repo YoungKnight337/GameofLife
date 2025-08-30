@@ -10,9 +10,9 @@ class Grid
 {
 private:
 	static int cellGrid;
-	//int rows;
-	//int columns;
-	//int cellGrid[GRID_HORIZONTAL][GRID_VERTICAL];
+	static int GRID_HORIZONTAL = 100;
+	static int GRID_VERTICAL = 100;
+	int cellGrid[GRID_HORIZONTAL][GRID_VERTICAL];
 
 public:
 	Grid();
