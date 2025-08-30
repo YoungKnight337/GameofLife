@@ -20,7 +20,6 @@ public:
 	~Cell();
 	void Update();
 	void Draw();
-	//void Rules();
 	int GetNeighbors(int neighbors);
 	
 	Vector2 GetPosition() { return position; }
