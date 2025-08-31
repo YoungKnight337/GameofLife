@@ -21,7 +21,7 @@ void Grid::Iniitialize(int a, int b)
 	{
 		for (int j = 0; j < b; j++)
 		{
-			cell;
+			cell//[i][j];
 		}
 	}
 } 
@@ -32,7 +32,7 @@ void Grid::Draw(int a, int b)
 	{
 		for (int j = 0; j < b ; j++)
 		{
-			cell.Draw();
+			cell.Draw(); //[i][j].Draw();
 		}
 	}
 }
