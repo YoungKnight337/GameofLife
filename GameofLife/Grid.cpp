@@ -59,7 +59,7 @@ void Grid::Seed()
 	{
 		for (int j = 0; j < 0; j++)
 		{
-			cell.SetState(true); //[i][j].SetState(true);
+			cell.SetState(true); //cell[i][j].SetState(true);
 		}
 	}
 }
@@ -71,7 +71,7 @@ void Grid::Update(int a, int b)
 		for (int j = 0; j < b; j++)
 		{
 
-			cell.Update(); //[i][j].Update();
+			cell.Update(); //cell[i][j].Update();
 			Seed();
 		}
 	}
