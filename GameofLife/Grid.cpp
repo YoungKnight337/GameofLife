@@ -43,11 +43,12 @@ void Grid::Draw(int a, int b)
 
 void Grid::Seed()
 {
-	cRow = ;
-	cColumn = ;
+	int a = cRow;
+	int b = cColumn;
 	int neighbors{};
 	float i = cell.GetPosition().x;
 	float j = cell.GetPosition().y;
+
 	//Plant Active Cells within the Grid
 	{ i, j; }
 	if (cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
