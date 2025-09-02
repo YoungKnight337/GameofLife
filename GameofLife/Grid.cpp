@@ -13,6 +13,8 @@ Grid::~Grid()
 
 void Grid::Iniitialize(int a, int b)
 {
+	cRow = a;
+	cColumn = b;
 	//In the init method of the Board class, you need to finish laying out the board. Currently, only the board is drawn.
 	//We wish to make a Block to each square on the board, and store that Block in a dictionary(self.block list).
 	//Note that you just want to create the Block; DO NOT SET TO LIVE
@@ -28,6 +30,8 @@ void Grid::Iniitialize(int a, int b)
 
 void Grid::Draw(int a, int b)
 {
+	cRow = a;
+	cColumn = b;
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < b ; j++)
@@ -66,6 +70,8 @@ void Grid::Seed()
 
 void Grid::Update(int a, int b)
 {
+	cRow = a;
+	cColumn = b;
 	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < b; j++)
