@@ -43,6 +43,8 @@ void Grid::Draw(int a, int b)
 
 void Grid::Seed()
 {
+	cRow = ;
+	cColumn = ;
 	int neighbors{};
 	float i = cell.GetPosition().x;
 	float j = cell.GetPosition().y;
