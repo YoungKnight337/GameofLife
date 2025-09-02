@@ -9,8 +9,8 @@ class Cell cell;
 class Grid
 {
 private:
-	int cellRows;
-	int cellColumns;
+	int cRow;
+	int cColumn;
 	int grid[100][100];
 
 public:
