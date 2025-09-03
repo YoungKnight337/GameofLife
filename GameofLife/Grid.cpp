@@ -75,7 +75,10 @@ void Grid::CheckNeighbors(int a, int b)
 {
 	cRow = a;
 	cColumn = b;
-}
+
+	//Check each cell that is alive alongside it neighbors
+	//If cell is active while having 2 and 3 cells it stays active
+	//
 
 void Grid::Update(int a, int b)
 {
