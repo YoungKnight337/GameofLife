@@ -71,6 +71,12 @@ void Grid::Seed()
 	}
 }
 
+void Grid::CheckNeighbors(int a, int b)
+{
+	cRow = a;
+	cColumn = b;
+}
+
 void Grid::Update(int a, int b)
 {
 	cRow = a;

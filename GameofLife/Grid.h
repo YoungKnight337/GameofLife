@@ -20,5 +20,6 @@ public:
 	void Seed();
 	void Draw(int a, int b);
 	void Update(int a, int b);
+	void CheckNeighbors(int a, int b);
 };
 
