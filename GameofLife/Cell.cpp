@@ -86,7 +86,7 @@ int Cell::CheckNeighbors()
 	*/
 }
 
-int Cell::GetNeighbors(int neighbors)
+/*int Cell::GetNeighbors(int neighbors)
 {
 	//Return a list of neighboring blocks
 	//if cells position is adjacent to another, add to neighbors list
@@ -98,6 +98,7 @@ int Cell::GetNeighbors(int neighbors)
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
 	CheckNeighbors();
 }
+*/
 
 
 
