@@ -45,8 +45,8 @@ void Cell::Update()
 //Input: A square tessellation, T, containing a connected component P of black cells.
 //Output: A sequence B(b1, b2, ..., bk) of boundary pixels i.e.the contour.
 
-int Cell::CheckNeighbors()
-{
+//int Cell::CheckNeighbors()
+//{
 
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	//Neighbourhood (graph theory)
@@ -84,7 +84,7 @@ int Cell::CheckNeighbors()
 				}
 			}
 	*/
-}
+//}
 
 /*int Cell::GetNeighbors(int neighbors)
 {
