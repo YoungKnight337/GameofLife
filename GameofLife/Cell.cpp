@@ -22,7 +22,7 @@ void Cell::Draw()
 void Cell::Update()
 {
 	int neighbors = 0;
-	GetNeighbors(neighbors);
+	//GetNeighbors(neighbors);
 
 }
 
