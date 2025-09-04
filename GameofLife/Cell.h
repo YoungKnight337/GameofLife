@@ -1,5 +1,4 @@
 #pragma once
-#include <list>
 #include "raylib.h"
 
 //https://github.com/raysan5/raylib-games/tree/master
@@ -12,7 +11,6 @@ private:
 	int width = 20;
 	int neighbors;
 	bool active;
-	std::list<Cell> collection;
 	Vector2 position;
 	Color color;
 public:
