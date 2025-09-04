@@ -86,7 +86,7 @@ void Cell::Update()
 	*/
 //}
 
-/*int Cell::GetNeighbors(int neighbors)
+int Cell::GetNeighbors(int neighbors)
 {
 	//Return a list of neighboring blocks
 	//if cells position is adjacent to another, add to neighbors list
@@ -96,9 +96,8 @@ void Cell::Update()
 
 	//Neighbors can be horizontally, vertically, or diagonally adjacent so a block in the center of the board would have 8 neighbors,  while one in a corner would only have 3.
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
-	CheckNeighbors();
 }
-*/
+
 
 
 
