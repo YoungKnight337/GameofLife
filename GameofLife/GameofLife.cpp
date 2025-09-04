@@ -4,12 +4,15 @@
 
 #define GRID_HORIZONTAL 100
 #define GRID_VERTICAL   100
+#define SCREEN_WIDTH    800
+#define SCREEN_HEIGHT   450
+#define FRAME_RATE       60
 
 int main()
 {
-    constexpr int SCREEN_WIDTH = 800;
-    constexpr int SCREEN_HEIGHT = 450;
-    constexpr int FRAME_RATE = 60;
+    //constexpr int SCREEN_WIDTH = 800;
+    //constexpr int SCREEN_HEIGHT = 450;
+    //constexpr int FRAME_RATE = 60;
 
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Space Shooter");
     SetTargetFPS(FRAME_RATE);
