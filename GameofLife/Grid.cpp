@@ -23,7 +23,7 @@ void Grid::Iniitialize(int a, int b)
 	{
 		for (int j = 0; j < b; j++)
 		{
-			cell; //cell[i][j];
+			cell; //cell[a][b];
 		}
 	}
 } 
@@ -36,7 +36,7 @@ void Grid::Draw(int a, int b)
 	{
 		for (int j = 0; j < b ; j++)
 		{
-			cell.Draw(); //cell[i][j].Draw();
+			cell.Draw(); //cell[a][b].Draw();
 		}
 	}
 }
@@ -52,13 +52,13 @@ void Grid::Seed()
 	//Plant Active Cells within the Grid
 	{ i, j; }
 	if (cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
-		cell.SetState(true); //cell[i][j].SetState(true);
+		cell.SetState(true); //cell[a][b].SetState(true);
 	if (cell.GetNeighbors(neighbors) == 2 && cell.GetState(true))
-		cell.SetState(true); //cell[i][j].SetState(true);
+		cell.SetState(true); //cell[a][b].SetState(true);
 	if (cell.GetNeighbors(neighbors) < 2 && cell.GetState(true))
-		cell.SetState(false); //cell[i][j].SetState(false);
+		cell.SetState(false); //cell[a][b].SetState(false);
 	if (cell.GetNeighbors(neighbors) > 3 && cell.GetState(true))
-		cell.SetState(false); //cell[i][j].SetState(false);
+		cell.SetState(false); //cell[a][b].SetState(false);
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
 	//If you get stuck, review the implementation of random seed to see how we can get the blocks to be visible on the board.
 	//However, you should not use the same for loop that random seed uses hint : your loop should involve the parameter block coords..
@@ -66,7 +66,7 @@ void Grid::Seed()
 	{
 		for (int j = 0; j < b; j++)
 		{
-			cell.SetState(true); //cell[i][j].SetState(true);
+			cell.SetState(true); //cell[a][b].SetState(true);
 		}
 	}
 }
@@ -90,7 +90,7 @@ void Grid::Update(int a, int b)
 		for (int j = 0; j < b; j++)
 		{
 
-			cell.Update(); //cell[i][j].Update();
+			cell.Update(); //cell[a][b].Update();
 			Seed();
 		}
 	}
