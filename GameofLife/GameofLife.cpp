@@ -2,8 +2,6 @@
 #include "raylib.h"
 #include "Grid.h"
 
-#define GRID_HORIZONTAL 100
-#define GRID_VERTICAL   100
 #define SCREEN_WIDTH    800
 #define SCREEN_HEIGHT   450
 #define FRAME_RATE       60
@@ -19,15 +17,15 @@ int main()
 
     Grid board;
 
-    board.Iniitialize(GRID_HORIZONTAL, GRID_VERTICAL);
+    board.Iniitialize();
     while (WindowShouldClose() == false)
     {
-        board.Update(GRID_HORIZONTAL, GRID_VERTICAL);
+        board.Update();
         
         BeginDrawing();
         ClearBackground(WHITE);
 
-        board.Draw(GRID_HORIZONTAL, GRID_VERTICAL);
+        board.Draw();
         EndDrawing();
     }
     

@@ -9,17 +9,16 @@ class Cell cell;
 class Grid
 {
 private:
-	int cRow;
-	int cColumn;
-	int grid[100][100];
+	const size_t N = 100;
+	int grid[N][N];
 
 public:
 	Grid();
 	~Grid();
-	void Iniitialize(int a, int b);
+	void Iniitialize();
 	void Seed();
-	void Draw(int a, int b);
-	void Update(int a, int b);
-	void CheckNeighbors(int a, int b);
+	void Draw();
+	void Update();
+	void CheckNeighbors();
 };
 
