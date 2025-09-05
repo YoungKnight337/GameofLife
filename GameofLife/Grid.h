@@ -10,7 +10,7 @@ class Grid
 {
 private:
 	const size_t N = 100;
-	int grid[N][N];
+	int** grid = new int*[N];
 
 public:
 	Grid();
