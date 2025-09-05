@@ -7,8 +7,8 @@
 class Cell
 {
 private:
-	int height = 20;
-	int width = 20;
+	int height = 10;
+	int width = 10;
 	int neighbors;
 	bool active;
 	Vector2 position;
