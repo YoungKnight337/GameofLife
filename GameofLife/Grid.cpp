@@ -79,7 +79,6 @@ void Grid::Update()
 		{
 
 			cell.Update(); //cell[i][j].Update();
-			Seed();
 		}
 	}
 }
