@@ -43,7 +43,7 @@ void Grid::Seed()
 	float j = cell.GetPosition().y;
 
 	//Plant Active Cells within the Grid
-	{ i, j; }
+	//{ i, j; }
 	if (cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
 		cell.SetState(true); //cell[a][b].SetState(true);
 	if (cell.GetNeighbors(neighbors) == 2 && cell.GetState(true))
