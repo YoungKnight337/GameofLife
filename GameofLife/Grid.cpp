@@ -31,7 +31,7 @@ void Grid::Draw()
 	{
 		for (size_t j = 0; j < N ; j++)
 		{
-			cell.Draw(); //cell[a][b].Draw();
+			cell[i][j].Draw(); 
 		}
 	}
 }
@@ -59,7 +59,7 @@ void Grid::Seed()
 	{
 		for (size_t j = 0; j < N; j++)
 		{
-			cell.SetState(true); //cell[a][b].SetState(true);
+			cell.SetState(true); //cell[i][j].SetState(true);
 		}
 	}
 }
@@ -78,7 +78,7 @@ void Grid::Update()
 		for (size_t j = 0; j < N; j++)
 		{
 
-			cell.Update(); //cell[a][b].Update();
+			cell.Update(); //cell[i][j].Update();
 			Seed();
 		}
 	}
