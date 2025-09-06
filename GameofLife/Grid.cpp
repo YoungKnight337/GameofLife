@@ -69,6 +69,14 @@ void Grid::CheckNeighbors()
 	//Check each cell that is alive alongside it neighbors
 	//If cell is active while having 2 and 3 cells it stays active
 	//	cell.GetNeighbors(neighbors);[i][j]
+	// if(cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
+	// 		cell.SetState(true); //cell[a][b].SetState(true);
+	// else
+	//		cell.SetState(false);
+	// if(cell.GetNeighbors(neighbors) == 2 && cell.GetState(true))
+	// 		cell.SetState(true); //cell[a][b].SetState(true);
+	// else
+	//		cell.SetState(false);
 }
 
 void Grid::Update()
