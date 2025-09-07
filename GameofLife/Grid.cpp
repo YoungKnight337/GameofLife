@@ -59,15 +59,19 @@ void Grid::Seed()
 void Grid::CheckNeighbors()
 {
 	//Check each cell that is alive alongside it neighbors
-	if(cell.GetNeighbors(neighbors) == 3 && cell.GetState(true))
-		cell.SetState(true); //cell[a][b].SetState(true);
-	else
-		cell.SetState(false); //cell[a][b].SetState(false);
-	
-	if(cell.GetNeighbors(neighbors) == 2 && cell.GetState(true))
-		cell.SetState(true); //cell[a][b].SetState(true);
-	else
-		cell.SetState(false); //cell[a][b].SetState(false);
+	if (cell.GetState(true))
+	{
+		if (cell.GetNeighbors(neighbors) == 3)
+			cell.SetState(true); //cell[a][b].SetState(true);
+		else
+			cell.SetState(false); //cell[a][b].SetState(false);
+
+		if (cell.GetNeighbors(neighbors) == 2)
+			cell.SetState(true); //cell[a][b].SetState(true);
+		else
+			cell.SetState(false); //cell[a][b].SetState(false);
+	}
+
 }
 
 void Grid::Update()
