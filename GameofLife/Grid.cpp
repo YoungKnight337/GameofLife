@@ -77,7 +77,7 @@ void Grid::Update()
 		for (size_t j = 0; j < N; j++)
 		{
 
-			cell.Update(); //cell[i][j].Update();
+			CheckNeighbors();
 		}
 	}
 }

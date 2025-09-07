@@ -16,7 +16,6 @@ private:
 public:
 	Cell();
 	~Cell();
-	void Update();
 	void Draw();
 	int GetNeighbors(int neighbors);
 	

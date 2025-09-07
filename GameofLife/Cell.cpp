@@ -20,12 +20,7 @@ void Cell::Draw()
 		DrawRectangle(position.x, position.y, width, height, color);
 }
 
-void Cell::Update()
-{
-	int neighbors = 0;
-	//GetNeighbors(neighbors);
 
-}
 
 /*void Cell::Rules()
 {
