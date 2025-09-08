@@ -31,7 +31,7 @@ void Grid::Draw()
 	{
 		for (size_t j = 0; j < N ; j++)
 		{
-			cell[i][j].Draw(); 
+			cell.Draw(); //cell[i][j].Draw();
 		}
 	}
 }
