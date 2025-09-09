@@ -9,7 +9,6 @@ Grid::~Grid()
 
 }
 
-
 void Grid::Iniitialize()
 {
 	//In the init method of the Board class, you need to finish laying out the board. Currently, only the board is drawn.
