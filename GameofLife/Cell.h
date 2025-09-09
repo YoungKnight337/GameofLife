@@ -17,10 +17,10 @@ public:
 	Cell();
 	~Cell();
 	void Draw();
-	int GetNeighbors(int neighbors);
 	
 	Vector2 GetPosition() { return position; }
-	////int CheckNeighbors();
+
+	int GetNeighbors(int neighbors);
 	bool GetState(bool active) { return active; }
 	bool SetState(bool active) { this->active = active; }
 };
