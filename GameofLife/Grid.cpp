@@ -38,7 +38,6 @@ void Grid::Draw()
 
 void Grid::Seed()
 {
-	int neighbors{};
 	float i = cell.GetPosition().x;
 	float j = cell.GetPosition().y;
 
