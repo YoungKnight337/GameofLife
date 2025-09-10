@@ -11,7 +11,7 @@ private:
 	int width = 10;
 	int neighbors;
 	bool active;
-	Vector2 position;
+	//Vector2 position;
 	Color color;
 public:
 	Cell();
@@ -20,6 +20,6 @@ public:
 	int GetNeighbors(int neighbors);
 	bool GetState(bool active) { return active; }
 	bool SetState(bool active) { this->active; }
-	Vector2 GetPosition() { return position; }
+	//Vector2 GetPosition() { return position; }
 };
 
