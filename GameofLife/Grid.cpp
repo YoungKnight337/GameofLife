@@ -43,8 +43,8 @@ void Grid::Draw()
 
 void Grid::Seed()
 {
-	float i = cell.GetPosition().x;
-	float j = cell.GetPosition().y;
+	//float i = cell.GetPosition().x;
+	//float j = cell.GetPosition().y;
 
 	//Plant Active Cells within the Grid
 	//{ i, j; }
