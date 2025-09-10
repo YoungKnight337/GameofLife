@@ -86,8 +86,8 @@ int Cell::GetNeighbors(int neighbors)
 {
 	//Return a list of neighboring blocks
 	//if cells position is adjacent to another, add to neighbors list
-	if(position.x)
-	 neighbors; 
+	//if(position.x)
+	//neighbors; 
 	//neighbors++;
 
 	//Neighbors can be horizontally, vertically, or diagonally adjacent so a block in the center of the board would have 8 neighbors,  while one in a corner would only have 3.

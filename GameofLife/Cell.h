@@ -19,7 +19,7 @@ public:
 	void Draw();
 	int GetNeighbors(int neighbors);
 	bool GetState(bool active) { return active; }
-	bool SetState(bool active) { this->active = active; }
+	bool SetState(bool active) { this->active; }
 	Vector2 GetPosition() { return position; }
 };
 
