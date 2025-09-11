@@ -13,7 +13,7 @@ private:
 	int j;
 	int neighbors;
 	bool active;
-	//Vector2 position;
+	Vector2 position;
 	Color color;
 public:
 	Cell();
