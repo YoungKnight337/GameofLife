@@ -20,23 +20,6 @@ void Cell::Draw()
 }
 
 
-
-/*void Cell::Rules()
-{
-	if (active)
-	{
-		if (neighbors < 2 || neighbors > 3)
-			active = false;
-		if (neighbors == 2 || neighbors == 3)
-			active = true;
-	}
-	else
-	{
-		if (neighbors == 3)
-			active = true;
-	}
-}*/
-
 //Input: A square tessellation, T, containing a connected component P of black cells.
 //Output: A sequence B(b1, b2, ..., bk) of boundary pixels i.e.the contour.
 
