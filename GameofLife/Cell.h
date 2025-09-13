@@ -9,9 +9,9 @@ class Cell
 private:
 	int height = 10;
 	int width = 10;
+	int neighbors;
 	int i;
 	int j;
-	int neighbors;
 	bool active;
 	Vector2 position;
 	Color color;
