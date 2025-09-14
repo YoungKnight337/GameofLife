@@ -1,7 +1,6 @@
 #pragma once
 #include "raylib.h"
 
-//https://github.com/raysan5/raylib-games/tree/master
 //Cell has two states. Alive or Dead: bool active
 //Cell has eight neighbors: int neighbors?
 class Cell
