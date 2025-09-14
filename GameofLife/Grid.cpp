@@ -84,6 +84,48 @@ void Grid::CheckNeighbors()
 
 }
 
+//int Cell::CheckNeighbors()
+//{
+
+	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
+	//Neighbourhood (graph theory)
+	//Adjacent Vertex
+	//The neighbourhood of a vertex v in a graph G is the subgraph of G induced by all vertices adjacent to v, i.e.
+	//The graph composed of the vertices adjacent to v and all edges connecting vertices adjacent to v.
+	/*
+		Define M(a) to be the Moore neighborhood of pixel a: pixel a;
+		Let p denote the current boundary pixel: pixel p;
+		Let c denote the current pixel under consideration i.e. c is in M(p). pixel c;
+		Let b denote the backtrack of c (i.e. neighbor pixel of p that was previously tested) pixel b;
+
+		Begin
+			Set B to be empty.
+			From bottom to top and left to right scan the cells of T until a black pixel, s, of P is found.
+			Insert s in B.
+			Set the current boundary point p to s i.e. p = s
+			Let b = the pixel from which s was entered during the image scan. //Image Scan??
+			Set c to be the next clockwise pixel (from b) in M(p).
+			while(c != s)
+			{
+				if (c == black)
+				{
+					insert c in B
+					Let b = p
+					Let p = c
+					(backtrack: move the current pixel c to the pixel from which p was entered) //Loop?
+					Let c = next clockwise pixel (from b) in M(p).
+				}
+				else
+				{
+					(advance the current pixel c to the next clockwise pixel in M(p) and update backtrack)
+					Let b = c
+					Let c = next clockwise pixel (from b) in M(p).
+				}
+			}
+	*/
+	//}
+
+
 void Grid::Update()
 {
 	for (size_t i = 0; i < N; i++)
