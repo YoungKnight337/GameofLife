@@ -34,6 +34,8 @@ int Cell::GetNeighbors(int neighbors)
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
 }
 
-
+//[Blackhalo117]
+//Yeah, the Grid class would, in my mind, be a class that stores it's data into an array, 
+//It also offers you the methods for stepping through the cells and creating a new array every cycle through
 
 
