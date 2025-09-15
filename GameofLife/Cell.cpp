@@ -35,6 +35,9 @@ int Cell::GetNeighbors(int neighbors)
 }
 
 //[Blackhalo117]
+// I'd make a method to checking the nearby cells via that +/- X and Y.
+// You can then use the outcome to write into a new array storing the next "state"
+// Multidimensional arrays are usually pretty straightforward.
 //Yeah, the Grid class would, in my mind, be a class that stores it's data into an array, 
 //It also offers you the methods for stepping through the cells and creating a new array every cycle through
 
