@@ -85,7 +85,7 @@ void Grid::Rules()
 
 }
 
-void Grid::CheckNeighbors()
+void Grid::CheckCell()
 {
 	//[Blackhalo117]
 	//I'd make a method to checking the nearby cells via that +/- X and Y.
@@ -154,7 +154,7 @@ void Grid::Update()
 		for (size_t j = 0; j < N; j++)
 		{
 			Seed();
-			CheckNeighbors();
+			CheckCell();
 		}
 	}
 }

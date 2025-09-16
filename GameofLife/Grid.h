@@ -20,7 +20,7 @@ public:
 	void Draw();
 	void Update();
 	void Rules();
-	void CheckNeighbors();
+	void CheckCell();
 };
 
 //[Blackhalo117]
