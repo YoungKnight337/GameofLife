@@ -99,7 +99,14 @@ void Grid::CheckNeighbors()
 	{
 		//check Grid[cell.GetWidth()][cell.GetHeight() - 1]
 	}
-
+	if (cell.GetWidth() + 1 < N)
+	{
+		//check Grid[cell.GetWidth() + 1][cell.GetHeight()]
+	}
+	if (cell.GetWidth() - 1 >= 0)
+	{
+		//check Grid[cell.GetWidth() - 1][cell.GetHeight()]
+	}
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	//Neighbourhood (graph theory)
 	//Adjacent Vertex
