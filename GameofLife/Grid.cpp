@@ -87,6 +87,9 @@ void Grid::Rules()
 
 void Grid::CheckNeighbors()
 {
+	//[Blackhalo117]
+	//I'd make a method to checking the nearby cells via that +/- X and Y.
+	//You can then use the outcome to write into a new array storing the next "state"
 
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	//Neighbourhood (graph theory)
