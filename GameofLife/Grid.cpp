@@ -124,6 +124,7 @@ void Grid::CheckNeighbors()
 				}
 			}
 	*/
+	Rules();
 }
 
 
