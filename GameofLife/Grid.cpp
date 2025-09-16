@@ -65,8 +65,9 @@ void Grid::Seed()
 	}
 }
 
-void Grid::CheckNeighbors()
+void Grid::Rules()
 {
+
 	int neighbors;
 	//Check each cell that is alive alongside it neighbors
 	if (cell.GetState(true))
@@ -84,8 +85,8 @@ void Grid::CheckNeighbors()
 
 }
 
-//int Cell::CheckNeighbors()
-//{
+void Grid::CheckNeighbors()
+{
 
 	//Conway's Game of Life uses the 8-cell Moore neighborhood, which includes the diagonal neighbors. 
 	//Neighbourhood (graph theory)
@@ -123,7 +124,7 @@ void Grid::CheckNeighbors()
 				}
 			}
 	*/
-	//}
+}
 
 
 void Grid::Update()

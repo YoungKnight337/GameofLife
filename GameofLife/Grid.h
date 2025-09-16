@@ -19,6 +19,7 @@ public:
 	void Seed();
 	void Draw();
 	void Update();
+	void Rules();
 	void CheckNeighbors();
 };
 
