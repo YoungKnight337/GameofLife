@@ -144,6 +144,14 @@ void Grid::CheckCell()
 			}
 	*/
 	Rules();
+
+	for (int i = 0; i < N; i++)
+	{
+		for (int j; j < N; j++)
+		{
+			CheckCell(x, y);
+		}
+	}
 }
 
 /*
