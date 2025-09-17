@@ -146,6 +146,13 @@ void Grid::CheckCell()
 	Rules();
 }
 
+/*
+	Then you can just iterate over all the cells with something like
+	for i in range(0, self.width):
+       for j in range(0, self.height):
+                 check_cell(x, y)
+	self.height and self.width just being how big you've made the area for the game or whatever
+*/
 
 void Grid::Update()
 {
