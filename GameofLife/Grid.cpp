@@ -85,7 +85,7 @@ void Grid::Rules()
 
 }
 
-void Grid::CheckCell()
+void Grid::CheckCell(size_t a, size_t b)
 {
 	//[Blackhalo117]
 	//I'd make a method to checking the nearby cells via that +/- X and Y.
@@ -108,14 +108,6 @@ void Grid::CheckCell()
 		Grid[cell.GetWidth() - 1][cell.GetHeight()];
 	}
 	Rules();
-
-	for (int i = 0; i < N; i++)
-	{
-		for (int j; j < N; j++)
-		{
-			CheckCell();
-		}
-	}
 }
 
 /*
@@ -133,7 +125,7 @@ void Grid::Update()
 		for (size_t j = 0; j < N; j++)
 		{
 			Seed();
-			CheckCell();
+			CheckCell(i,j);
 		}
 	}
 }
@@ -173,4 +165,13 @@ void Grid::Update()
 				Let c = next clockwise pixel (from b) in M(p).
 			}
 		}
+*/
+
+/*for (int i = 0; i < N; i++)
+{
+	for (int j; j < N; j++)
+	{
+		CheckCell();
+	}
+}
 */
