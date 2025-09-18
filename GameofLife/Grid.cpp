@@ -149,7 +149,7 @@ void Grid::CheckCell()
 	{
 		for (int j; j < N; j++)
 		{
-			CheckCell(x, y);
+			CheckCell();
 		}
 	}
 }
