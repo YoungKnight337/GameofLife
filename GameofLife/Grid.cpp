@@ -110,14 +110,6 @@ void Grid::CheckCell(size_t a, size_t b)
 	Rules();
 }
 
-/*
-	Then you can just iterate over all the cells with something like
-	for i in range(0, self.width):
-       for j in range(0, self.height):
-                 check_cell(x, y)
-	self.height and self.width just being how big you've made the area for the game or whatever
-*/
-
 void Grid::Update()
 {
 	for (size_t i = 0; i < N; i++)
@@ -165,6 +157,14 @@ void Grid::Update()
 				Let c = next clockwise pixel (from b) in M(p).
 			}
 		}
+*/
+
+/*
+	Then you can just iterate over all the cells with something like
+	for i in range(0, self.width):
+	   for j in range(0, self.height):
+				 check_cell(x, y)
+	self.height and self.width just being how big you've made the area for the game or whatever
 */
 
 /*for (int i = 0; i < N; i++)
