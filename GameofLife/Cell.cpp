@@ -25,7 +25,7 @@ void Cell::Draw()
 
 int Cell::GetNeighbors(int neighbors)
 {
-	//Return a list of neighboring blocks
+	//Return an array of neighboring blocks
 	//if cells position is adjacent to another and is active, add to neighbors list
 	//if(position.x)
 	//	neighbors++;
