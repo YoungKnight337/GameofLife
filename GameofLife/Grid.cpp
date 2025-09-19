@@ -87,7 +87,7 @@ void Grid::Rules()
 
 void Grid::CheckCell(size_t a, size_t b)
 {
-	grid[a][b];
+	//grid[a][b];
 	//[Blackhalo117]
 	//I'd make a method to checking the nearby cells via that +/- X and Y.
 	//You can then use the outcome to write into a new array storing the next "state"
