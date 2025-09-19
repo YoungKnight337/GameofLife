@@ -26,3 +26,5 @@ public:
 	Vector2 GetPosition() { return position; }
 };
 
+//Input: A square tessellation, T, containing a connected component P of black cells.
+//Output: A sequence B(b1, b2, ..., bk) of boundary pixels i.e.the contour.
