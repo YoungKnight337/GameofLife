@@ -3,6 +3,7 @@
 Cell::Cell()
 {
 	active = false;
+
 	if (active)
 		color = BLACK;
 	else
