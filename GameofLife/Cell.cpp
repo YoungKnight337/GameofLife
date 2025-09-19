@@ -19,7 +19,6 @@ void Cell::Draw()
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-
 int Cell::GetNeighbors(int neighbors)
 {
 	//Return an array of neighboring blocks
