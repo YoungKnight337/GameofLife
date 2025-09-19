@@ -38,7 +38,7 @@ for i in range(0, 10):
 	  fuu.append(temp)
 ============================================================================================================
 Now you can access "cells" inside of this by typing:
-fuu[x][y] = new cell()
+fuu[x][y] = new cell():   	grid[a][b] == new cell();
 So x is your width and y is your height
 
 And yeah, I'd make a function that checks a cell like:
