@@ -20,7 +20,7 @@ public:
 	void Draw();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
-	int GetNeighbors(int neighbors);
+	int GetNeighbors();
 	bool GetState(bool active) { return active; }
 	bool SetState(bool active) { this->active;  }
 	Vector2 GetPosition() { return position; }

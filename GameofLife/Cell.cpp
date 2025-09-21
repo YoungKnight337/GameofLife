@@ -20,7 +20,7 @@ void Cell::Draw()
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-int Cell::GetNeighbors(int neighbors)
+int Cell::GetNeighbors()
 {
 	//Return an array of neighboring blocks
 	//if cells position is adjacent to another and is active, add to neighbors list
