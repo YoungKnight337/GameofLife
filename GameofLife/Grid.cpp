@@ -67,8 +67,8 @@ void Grid::Seed()
 
 void Grid::Rules()
 {
-
 	int neighbors;
+
 	//Check each cell that is alive alongside it neighbors
 	if (cell.GetState(true))
 	{
