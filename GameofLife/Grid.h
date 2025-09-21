@@ -48,16 +48,6 @@ func check_cell(x, y):
       if y - 1 >= 0:
             //check fuu[x][y - 1]
 ============================================================================================================
-You do that for x conditions too
-	Oh so like, a typical array would be something like this:
-	var fuu = []
-	
-	To make it multi-dimensional, you might try something like this:
-	var fuu = []
-	for i in range(0, 10):
-      temp = []
-      fuu.append(temp)
-============================================================================================================
 	Now you can access "cells" inside of this by typing:
 	fuu[x][y] = new cell()
 	So x is your width and y is your height, like pixels :3
