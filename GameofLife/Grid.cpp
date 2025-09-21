@@ -43,12 +43,12 @@ void Grid::Draw()
 
 void Grid::Seed()
 {
-	//float i = cell.GetPosition().x;
-	//float j = cell.GetPosition().y;
+	float i = cell.GetPosition().x;
+	float j = cell.GetPosition().y;
 
 	//Plant Active Cells within the Grid
 	
-	//{ i, j; }
+	{ i, j; }
 	
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
 	
