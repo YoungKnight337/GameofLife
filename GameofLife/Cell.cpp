@@ -25,8 +25,8 @@ int Cell::GetNeighbors()
 	
 	//Return an array of neighboring blocks
 	//return neighbors;
-	//if cells position is adjacent to another and is active, add to neighbors list
-	
+
+	//if cells position is adjacent to another and is active, add to neighbors array
 	if(position.x)
 		neighbors;
 
