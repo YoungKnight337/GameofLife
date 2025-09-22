@@ -74,8 +74,10 @@ void Grid::Rules()
 	{
 		if (cell.GetNeighbors() == 3 || cell.GetNeighbors() == 2)
 			cell.SetState(true); //cell[a][b].SetState(true);
-		if (cell.GetNeighbors() < 2 || cell.GetNeighbors() > 3)
-			cell.SetState(false); //cell[a][b].SetState(false);
+		if (cell.GetNeighbors() < 2 && cell.GetState(true))
+			cell.SetState(false);
+		if(cell.GetNeighbors() > 3 && cell.GetState(true))
+			cell.SetState(false);//cell[a][b].SetState(false);
 	}
 	else
 	{
