@@ -72,7 +72,7 @@ void Grid::Rules()
 	//Check each cell that is alive alongside it neighbors
 	if (cell.GetState(true))
 	{
-		if (cell.GetNeighbors() == 3 && cell.GetState(true))
+		if(cell.GetNeighbors() == 3 && cell.GetState(true))
 			cell.SetState(true);
 		if(cell.GetNeighbors() == 2 && cell.GetState(true))
 			cell.SetState(true); //cell[a][b].SetState(true);
