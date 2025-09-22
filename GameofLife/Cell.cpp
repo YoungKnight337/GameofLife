@@ -22,7 +22,6 @@ void Cell::Draw()
 
 int Cell::GetNeighbors()
 {
-	
 	//Return an array of neighboring blocks
 	//return neighbors;
 
