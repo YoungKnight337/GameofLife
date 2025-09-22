@@ -27,6 +27,7 @@ int Cell::GetNeighbors()
 	//return neighbors;
 
 	//if cells position is adjacent to another and is active, add to neighbors array
+	//A cell has eight neighbors, of those eight which of them are active?
 	if(position.x)
 		neighbors;
 
