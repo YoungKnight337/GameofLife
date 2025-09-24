@@ -19,7 +19,7 @@ public:
 	void Seed();
 	void Draw();
 	void Update();
-	void Rules();
+	void Rules(size_t a, size_t b);
 	void CheckCell(size_t a, size_t b);
 };
 
