@@ -23,7 +23,7 @@ void Cell::Draw()
 int Cell::GetNeighbors()
 {
 	//Return an array of neighboring blocks
-	//return neighbors;
+	return neighbors;
 
 	//if cells position is adjacent to another and is active, add to neighbors array
 	//A cell has eight neighbors, of those eight which of them are active?
