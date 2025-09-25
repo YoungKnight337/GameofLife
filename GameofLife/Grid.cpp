@@ -14,11 +14,9 @@ void Grid::Iniitialize()
 	//In the init method of the Board class, you need to finish laying out the board. 
 	//Currently, only the board is drawn.
 	
-	//We wish to make a Block to each square on the board: Board is composed of cells that are either active or dead.
-	
 	//Store that Block in a dictionary(self.block list): Store Cell in Array?
 	
-	//Note that you just want to create the Block; DO NOT SET TO LIVE: Simply set Cell to False once instantiated.
+	//Simply set Cell to False once instantiated.
 
 	for (size_t i = 0; i < N; i++)
 	{
