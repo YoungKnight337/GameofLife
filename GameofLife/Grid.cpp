@@ -12,20 +12,17 @@ Grid::~Grid()
 void Grid::Iniitialize()
 {
 	//In the init method of the Board class, you need to finish laying out the board. 
-	//Currently, only the board is drawn.
-	
-	//We wish to make a Block to each square on the board: Board is composed of cells that are either active or dead.
 	
 	//Store that Block in a dictionary(self.block list): Store Cell in Array?
 	
-	//Note that you just want to create the Block; DO NOT SET TO LIVE: Simply set Cell to False once instantiated.
+	//Simply set Cell to False once instantiated.
 
 	for (size_t i = 0; i < N; i++)
 	{
 		for (size_t j = 0; j < N; j++)
 		{
 			cell; 
-			//cell.SetState(false);
+			cell.SetState(false);
 		}
 	}
 } 
@@ -76,18 +73,18 @@ void Grid::Rules(size_t a, size_t b)
 			if (cell.GetState(true))
 			{
 				if (cell.GetNeighbors() == 3 && cell.GetState(true))
-					cell[a][b].SetState(true);
+					cell.SetState(true);
 				if (cell.GetNeighbors() == 2 && cell.GetState(true))
-					cell[a][b].SetState(true); //cell[a][b].SetState(true);
+					cell.SetState(true); //cell[a][b].SetState(true);
 				if (cell.GetNeighbors() < 2 && cell.GetState(true))
-					cell[a][b].SetState(false);
+					cell.SetState(false);
 				if (cell.GetNeighbors() > 3 && cell.GetState(true))
-					cell[a][b].SetState(false);//cell[a][b].SetState(false);
+					cell.SetState(false);//cell[a][b].SetState(false);
 			}
 			else
 			{
 				if (cell.GetNeighbors() == 3)
-					cell[a][b].SetState(true); //cell[a][b].SetState(true);
+					cell.SetState(true); //cell[a][b].SetState(true);
 			}
 		}
 	}
