@@ -21,7 +21,7 @@ void Grid::Iniitialize()
 	{
 		for (size_t j = 0; j < N; j++)
 		{
-			cell; 
+			//grid[cell][cell]; 
 		}
 	}
 } 
