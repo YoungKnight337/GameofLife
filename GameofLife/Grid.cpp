@@ -41,6 +41,7 @@ void Grid::Seed()
 {
 	float i = cell.GetPosition().x;
 	float j = cell.GetPosition().y;
+	GetRandomValue(0, 1);
 
 	//cell[GetHeight][GetWidth]
 	//cell[GetHeight][GetWidth].SetState(true);
