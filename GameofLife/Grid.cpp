@@ -96,7 +96,13 @@ void Grid::Rules(size_t a, size_t b)
 
 void Grid::Clear()
 {
-
+	for (size_t i = 0; i < N; i++)
+	{
+		for (size_t j = 0; j < N; j++)
+		{
+			cell.SetState(false);
+		}
+	}
 }
 
 void Grid::CheckCell(size_t a, size_t b)
