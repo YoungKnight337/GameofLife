@@ -94,6 +94,11 @@ void Grid::Rules(size_t a, size_t b)
 
 }
 
+void Grid::Clear()
+{
+
+}
+
 void Grid::CheckCell(size_t a, size_t b)
 {
 	//grid[a][b];

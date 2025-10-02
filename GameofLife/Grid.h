@@ -20,6 +20,7 @@ public:
 	void Draw();
 	void Update();
 	void Rules(size_t a, size_t b);
+	void Clear();
 	void CheckCell(size_t a, size_t b);
 };
 
