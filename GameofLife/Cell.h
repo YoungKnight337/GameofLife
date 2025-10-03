@@ -9,8 +9,6 @@ private:
 	int height = 10;
 	int width = 10;
 	int neighbors[8]; 
-	int i;
-	int j;
 	bool active;
 	Vector2 position;
 	Color color;
