@@ -41,7 +41,6 @@ void Grid::Seed()
 	//cell[GetHeight][GetWidth].SetState(true);
 
 	//Plant Active Cells within the Grid
-	
 	{ i, j; }
 	
 	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
@@ -77,7 +76,7 @@ void Grid::Rules(size_t a, size_t b)
 				if (cell.GetNeighbors() < 2 && cell.GetState(true))
 					cell.SetState(false); //cell[a][b].SetState(false);
 				if (cell.GetNeighbors() > 3 && cell.GetState(true))
-					cell.SetState(false);//cell[a][b].SetState(false);
+					cell.SetState(false); //cell[a][b].SetState(false);
 			}
 			else
 			{
