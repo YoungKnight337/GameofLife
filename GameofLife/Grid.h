@@ -11,7 +11,7 @@ class Grid
 private:
 	const size_t N = 100;
 	//int** grid = new int*[N];
-	//int** grid = new int grid[N][N];
+	//int** grid = new int *[N][N];
 
 public:
 	Grid();
