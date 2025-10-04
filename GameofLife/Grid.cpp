@@ -127,6 +127,7 @@ void Grid::CheckCell(size_t a, size_t b)
 	{
 		grid[cell.GetWidth() - 1][cell.GetHeight()];
 	}
+	
 	Rules(a,b);
 }
 
