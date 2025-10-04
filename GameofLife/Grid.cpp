@@ -9,9 +9,7 @@ Grid::~Grid()
 }
 
 void Grid::Iniitialize()
-{
-	//In the init method of the Board class, you need to finish laying out the board. 
-	
+{	
 	//Store that Block in a dictionary(self.block list): Store Cell in Array?
 
 	for (size_t i = 0; i < N; i++)
