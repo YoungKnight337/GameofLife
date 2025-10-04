@@ -187,12 +187,3 @@ void Grid::Update()
 				 check_cell(x, y)
 	self.height and self.width just being how big you've made the area for the game or whatever
 */
-
-/*for (int i = 0; i < N; i++)
-{
-	for (int j; j < N; j++)
-	{
-		CheckCell();
-	}
-}
-*/
