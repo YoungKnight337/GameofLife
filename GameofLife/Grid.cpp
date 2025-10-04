@@ -70,18 +70,23 @@ void Grid::Rules(size_t a, size_t b)
 			if (cell.GetState(true))
 			{
 				if (cell.GetNeighbors() == 3 && cell.GetState(true))
-					cell.SetState(true); //cell[a][b].SetState(true);
+					cell.SetState(true); 
+					//cell[a][b].SetState(true);
 				if (cell.GetNeighbors() == 2 && cell.GetState(true))
-					cell.SetState(true); //cell[a][b].SetState(true);
+					cell.SetState(true); 
+					//cell[a][b].SetState(true);
 				if (cell.GetNeighbors() < 2 && cell.GetState(true))
-					cell.SetState(false); //cell[a][b].SetState(false);
+					cell.SetState(false); 
+					//cell[a][b].SetState(false);
 				if (cell.GetNeighbors() > 3 && cell.GetState(true))
-					cell.SetState(false); //cell[a][b].SetState(false);
+					cell.SetState(false); 
+					//cell[a][b].SetState(false);
 			}
 			else
 			{
 				if (cell.GetNeighbors() == 3)
-					cell.SetState(true); //cell[a][b].SetState(true);
+					cell.SetState(true); 
+					//cell[a][b].SetState(true);
 			}
 		}
 	}
