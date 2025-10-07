@@ -9,6 +9,7 @@ private:
 	int height = 10;
 	int width = 10;
 	int neighbors[8]; 
+	int i;
 	bool active;
 	Vector2 position;
 	Color color;
@@ -18,7 +19,7 @@ public:
 	void Draw();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
-	int GetNeighbors() { return neighbors; };
+	int GetNeighbors(int i) { return neighbors; };
 	bool GetState(bool active) { return active; }
 	bool SetState(bool active) { this->active;  }
 	Vector2 GetPosition() { return position; }
