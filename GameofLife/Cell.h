@@ -18,7 +18,7 @@ public:
 	void Draw();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
-	int GetNeighbors();
+	int GetNeighbors() { return neighbors; };
 	bool GetState(bool active) { return active; }
 	bool SetState(bool active) { this->active;  }
 	Vector2 GetPosition() { return position; }
