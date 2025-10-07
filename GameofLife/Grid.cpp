@@ -62,7 +62,6 @@ void Grid::Seed()
 void Grid::Rules(size_t a, size_t b)
 {
 	int i;
-	int neighbors;
 	for (size_t a = 0; a < N; a++)
 	{
 		for (size_t b = 0; b < N; b++)
