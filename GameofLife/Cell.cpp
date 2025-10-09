@@ -20,8 +20,8 @@ void Cell::Draw()
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-//int Cell::GetNeighbors()
-//{
+void Cell::ChangeState()
+{
 	//Return an array of neighboring blocks
 	//return neighbors[i];
 
@@ -33,7 +33,7 @@ void Cell::Draw()
 	//Neighbors can be horizontally, vertically, or diagonally adjacent so a block in the center of the board would have 8 neighbors
 	//Meanwhile one in a corner would only have 3.
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
-//}
+}
 
 
 

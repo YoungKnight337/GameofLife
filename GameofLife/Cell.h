@@ -17,6 +17,7 @@ public:
 	Cell();
 	~Cell();
 	void Draw();
+	void ChangeState();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
 	int GetNeighbors() const { return neighbors[i]; };
