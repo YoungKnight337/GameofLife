@@ -61,7 +61,6 @@ void Grid::Seed()
 
 void Grid::Rules(size_t a, size_t b)
 {
-	int i;
 	for (size_t a = 0; a < N; a++)
 	{
 		for (size_t b = 0; b < N; b++)
@@ -69,22 +68,22 @@ void Grid::Rules(size_t a, size_t b)
 			//Check each cell that is alive alongside it neighbors
 			if (cell.GetState(true))
 			{
-				if (cell.GetNeighbors(i) == 3 && cell.GetState(true))
+				if (cell.GetNeighbors() == 3 && cell.GetState(true))
 					cell.SetState(true); 
 					//cell[a][b].SetState(true);
-				if (cell.GetNeighbors(i) == 2 && cell.GetState(true))
+				if (cell.GetNeighbors() == 2 && cell.GetState(true))
 					cell.SetState(true); 
 					//cell[a][b].SetState(true);
-				if (cell.GetNeighbors(i) < 2 && cell.GetState(true))
+				if (cell.GetNeighbors() < 2 && cell.GetState(true))
 					cell.SetState(false); 
 					//cell[a][b].SetState(false);
-				if (cell.GetNeighbors(i) > 3 && cell.GetState(true))
+				if (cell.GetNeighbors() > 3 && cell.GetState(true))
 					cell.SetState(false); 
 					//cell[a][b].SetState(false);
 			}
 			else
 			{
-				if (cell.GetNeighbors(i) == 3)
+				if (cell.GetNeighbors() == 3)
 					cell.SetState(true); 
 					//cell[a][b].SetState(true);
 			}
