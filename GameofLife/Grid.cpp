@@ -34,8 +34,8 @@ void Grid::Draw()
 
 void Grid::Seed()
 {
-	float i = cell.GetPosition().x;
-	float j = cell.GetPosition().y;
+	float i_x = cell.GetPosition().x;
+	float j_y = cell.GetPosition().y;
 
 	//cell[GetHeight][GetWidth]
 	//cell[GetHeight][GetWidth].SetState(true);
@@ -52,7 +52,7 @@ void Grid::Seed()
 	{
 		for (size_t j = 0; j < N; j++)
 		{
-			{ i, j; }
+			{ i_x, j_y; }
 			int r_value = GetRandomValue(0, 1);
 			cell.SetState(true); //cell[i][j].SetState(true);
 		}
