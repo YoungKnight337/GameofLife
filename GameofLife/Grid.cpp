@@ -10,7 +10,6 @@ Grid::~Grid()
 
 void Grid::Iniitialize()
 {	
-	//Store that Block in a dictionary(self.block list): Store Cell in Array?
 
 	for (size_t i = 0; i < N; i++)
 	{
