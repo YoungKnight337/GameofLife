@@ -46,7 +46,8 @@ void Grid::Seed()
 	
 	//If you get stuck, review the implementation of random seed to see how we can get the blocks to be visible on the board.
 	
-	//However, you should not use the same for loop that random seed uses hint : your loop should involve the parameter block coords..
+	//However, you should not use the same for loop that random seed uses 
+	//Hint : your loop should involve the parameter block coords..
 
 	for(size_t i = 0; i < N ; i++)
 	{
