@@ -10,10 +10,9 @@ Grid::~Grid()
 
 void Grid::Iniitialize()
 {	
-
-	for (size_t i = 0; i < N; i++) //N = 100
+	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
 	{
-		for (size_t j = 0; j < N; j++) //N = 100
+		for (size_t j = 0; j < N; j++) //for(int j = 0; j < 100; j++)
 		{
 			cell;
 			Seed();
@@ -42,13 +41,13 @@ void Grid::Seed()
 
 	//Plant Active Cells within the Grid
 	
-	//Which takes in a list of block coordinate tuples something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
+	//Which takes in a list of block coordinates something like[(x1, y1), (x2, y2)] and sets the Blocks in those positions to be live.
 	
 	//If you get stuck, review the implementation of random seed to see how we can get the blocks to be visible on the board.
 	
 	//However, you should not use the same for loop that random seed uses 
 	//Hint : your loop should involve the parameter block coords..
-
+	//for (size_t i = 0; i < size ; i++)
 	for(size_t i = 0; i < N ; i++)
 	{
 		for (size_t j = 0; j < N; j++)
