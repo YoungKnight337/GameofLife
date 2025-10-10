@@ -11,9 +11,9 @@ Grid::~Grid()
 void Grid::Iniitialize()
 {	
 
-	for (size_t i = 0; i < N; i++)
+	for (size_t i = 0; i < N; i++) //N = 100
 	{
-		for (size_t j = 0; j < N; j++)
+		for (size_t j = 0; j < N; j++) //N = 100
 		{
 			cell;
 			Seed();
@@ -23,9 +23,9 @@ void Grid::Iniitialize()
 
 void Grid::Draw()
 {
-	for (size_t i = 0; i < N; i++)
+	for (size_t i = 0; i < N; i++) //N = 100
 	{
-		for (size_t j = 0; j < N ; j++)
+		for (size_t j = 0; j < N ; j++) //N = 100
 		{
 			cell.Draw(); 
 		}
