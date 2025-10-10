@@ -125,7 +125,7 @@ void Grid::Update()
 	{
 		for (size_t j = 0; j < N; j++)
 		{
-			CheckCell(i,j);
+			CheckCell(i,j); 
 		}
 	}
 }
