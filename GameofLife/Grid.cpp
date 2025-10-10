@@ -55,6 +55,7 @@ void Grid::Seed()
 			{ i_x, j_y; }
 			int r_value = GetRandomValue(0, 1);
 			cell.SetState(true); //cell[i][j].SetState(true);
+			cell.SetState(false);
 		}
 	}
 }
