@@ -15,7 +15,7 @@ void Grid::Iniitialize()
 		for (size_t j = 0; j < N; j++) //for(int j = 0; j < 100; j++)
 		{
 			cell;
-			Seed();
+			//Seed();
 		}
 	}
 } 
@@ -123,7 +123,7 @@ void Grid::Update()
 	{
 		for (size_t j = 0; j < N; j++)
 		{
-			CheckCell(i,j); 
+			//CheckCell(i,j); 
 		}
 	}
 }
