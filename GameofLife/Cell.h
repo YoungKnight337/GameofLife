@@ -1,14 +1,15 @@
 #pragma once
+#include <vector>
 #include "raylib.h"
 
 //Cell has two states. Alive or Dead: bool active
 //Cell has eight neighbors: int neighbors?
-class Cell
+class Cell 
 {
 private:
 	int height = 10;
 	int width = 10;
-	int a_neighbors[8]; 
+	std::vector <int> a_neighbors;
 	int i;
 	bool active;
 	Vector2 position;
@@ -20,7 +21,7 @@ public:
 	void ChangeState();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
-	int GetNeighbors() const { return a_neighbors[i]; };
+	int GetNeighbors() const { return a_neighbors; };
 	bool GetState(bool active) const { return active; }
 	bool SetState(bool active) const { this->active;  }
 	Vector2 GetPosition() { return position; }
