@@ -19,9 +19,9 @@ public:
 	~Cell();
 	void Draw();
 	void ChangeState();
+	void GetNeighbors() const { return a_neighbors; };
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
-	int GetNeighbors() const { return a_neighbors; };
 	bool GetState(bool active) const { return active; }
 	bool SetState(bool active) const { this->active;  }
 	Vector2 GetPosition() { return position; }
