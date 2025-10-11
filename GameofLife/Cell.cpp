@@ -24,7 +24,7 @@ void Cell::ChangeState()
 {
 	//Return an array of neighboring blocks
 	//return neighbors[i];
-
+	//GetNeighbors();
 	//if cells position is adjacent to another and is active, add to neighbors array
 	//A cell has eight neighbors, of those eight which of them are active?
 	//if(position.x)
