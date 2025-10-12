@@ -71,18 +71,18 @@ void Grid::Rules(size_t a, size_t b)
 			//Check each cell that is alive alongside it neighbors
 			if (cell.GetState(true))
 			{
-				if (cell.GetNeighbors() == 3 && cell.GetState(true)) //3 active neighbors -> alive; cell[a][b].SetState(true);
+				if (cell.a_neighbors == 3 && cell.GetState(true)) //3 active neighbors -> alive; cell[a][b].SetState(true);
 					cell.SetState(true); 
-				if (cell.GetNeighbors() == 2 && cell.GetState(true)) //2 active neighbors -> alive; cell[a][b].SetState(true);
+				if (cell.a_neighbors == 2 && cell.GetState(true)) //2 active neighbors -> alive; cell[a][b].SetState(true);
 					cell.SetState(true); 
-				if (cell.GetNeighbors() < 2 && cell.GetState(true)) //Less than 2 active cells -> dead; cell[a][b].SetState(false);
+				if (cell.a_neighbors < 2 && cell.GetState(true)) //Less than 2 active cells -> dead; cell[a][b].SetState(false);
 					cell.SetState(false); 
-				if (cell.GetNeighbors() > 3 && cell.GetState(true)) //More than 3 active cells -> dead; cell[a][b].SetState(false);
+				if (cell.a_neighbors > 3 && cell.GetState(true)) //More than 3 active cells -> dead; cell[a][b].SetState(false);
 					cell.SetState(false); 
 			}
 			else
 			{
-				if (cell.GetNeighbors() == 3) //3 active neighbors -> alive; cell[a][b].SetState(true); 
+				if (cell.a_neighbors == 3) //3 active neighbors -> alive; cell[a][b].SetState(true); 
 					cell.SetState(true); 
 			}
 		}
