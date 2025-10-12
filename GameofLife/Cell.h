@@ -8,7 +8,6 @@ class Cell
 private:
 	int height = 10;
 	int width = 10;
-	std::vector <Cell> a_neighbors;
 	int i;
 	bool active;
 	Vector2 position;
@@ -18,11 +17,11 @@ public:
 	~Cell();
 	void Draw();
 	void ChangeState();
-	void GetNeighbors() { return a_neighbors; };
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
 	bool GetState(bool active) const { return active; }
 	bool SetState(bool active) const { this->active;  }
+	std::vector<int> a_neighbors;
 	Vector2 GetPosition() { return position; }
 };
 
