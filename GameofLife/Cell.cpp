@@ -20,8 +20,9 @@ void Cell::Draw()
 	DrawRectangle(position.x, position.y, width, height, color);
 }
 
-void Cell::ChangeState()
+int Cell::AddNeighbor()
 {
+	a_neighbors++;
 	//Return an array of neighboring blocks
 	//return neighbors[i];
 	//GetNeighbors();
