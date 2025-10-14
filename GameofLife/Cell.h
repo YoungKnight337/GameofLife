@@ -21,7 +21,7 @@ public:
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
 	int AddNeighbor();
-	int GetNeighbor() { return a_neighbors; }
+	int GetNeighbor() const { return a_neighbors; }
 	bool GetState(bool active) const { return active; }
 	bool SetState(bool active) const { this->active;  }
 	Vector2 GetPosition() { return position; }
