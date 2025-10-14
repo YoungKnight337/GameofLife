@@ -22,9 +22,12 @@ void Cell::Draw()
 
 int Cell::AddNeighbor()
 {
-	if(a_neighbors)
-	if(active==true)
-		a_neighbors++;
+	for (int i = 0; i < 8; i++)
+	{
+		if (a_neighbors)
+			if (active == true)
+				a_neighbors++;
+	}
 	//Return an array of neighboring blocks
 	//return neighbors[i];
 	//GetNeighbors();
