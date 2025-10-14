@@ -53,7 +53,7 @@ void Grid::Seed()
 		for (size_t j = 0; j < N; j++)
 		{
 			{i_x, j_y;}
-			int r_value = GetRandomValue(0, 1);
+			int r_value = GetRandomValue(0, 100);
 			cell.SetState(true); //cell[i][j].SetState(true);
 			cell.SetState(false);
 		}
