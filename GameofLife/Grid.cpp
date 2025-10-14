@@ -78,9 +78,9 @@ void Grid::Rules(size_t a, size_t b)
 					cell.SetState(true); 
 				if (cell.GetNeighbor() == 2) //2 active neighbors -> alive; cell[a][b].SetState(true);
 					cell.SetState(true); 
-				if (cell.GetNeighbor() < 2) //Less than 2 active cells -> dead; cell[a][b].SetState(false);
+				if (cell.GetNeighbor() <  2) //Less than 2 active cells -> dead; cell[a][b].SetState(false);
 					cell.SetState(false); 
-				if (cell.GetNeighbor() > 3) //More than 3 active cells -> dead; cell[a][b].SetState(false);
+				if (cell.GetNeighbor() >  3) //More than 3 active cells -> dead; cell[a][b].SetState(false);
 					cell.SetState(false); 
 			}
 			else
