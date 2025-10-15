@@ -10,9 +10,9 @@ Grid::~Grid()
 
 void Grid::Iniitialize()
 {	
-	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
+	for (size_t i = 0; i < 100; i++) //for(int i = 0; i < 100; i++)
 	{
-		for (size_t j = 0; j < N; j++) //for(int j = 0; j < 100; j++)
+		for (size_t j = 0; j < 100; j++) //for(int j = 0; j < 100; j++)
 		{
 			cell;
 			//Seed();
@@ -22,9 +22,9 @@ void Grid::Iniitialize()
 
 void Grid::Draw()
 {
-	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
+	for (size_t i = 0; i < 100; i++) //for(int i = 0; i < 100; i++)
 	{
-		for (size_t j = 0; j < N ; j++) //for(int j = 0; j < 100; j++)
+		for (size_t j = 0; j < 100 ; j++) //for(int j = 0; j < 100; j++)
 		{
 			cell.Draw(); 
 		}
@@ -47,9 +47,9 @@ void Grid::Seed()
 	//However, you should not use the same for loop that random seed uses 
 	//Hint : your loop should involve the parameter block coords..
 	//for (size_t i = 0; i < size ; i++)
-	for(size_t i = 0; i < N ; i++)
+	for(size_t i = 0; i < 100 ; i++)
 	{
-		for (size_t j = 0; j < N; j++)
+		for (size_t j = 0; j < 100; j++)
 		{
 			{i_x, j_y;}
 			int r_value = GetRandomValue(0, 100);
@@ -67,9 +67,9 @@ void Grid::Seed()
 //Maybe shift some responsability to cell class they track the neighbors the Grid tracks the state of the neighbors?
 void Grid::Rules(size_t a, size_t b)
 {
-	for (size_t a = 0; a < N; a++)
+	for (size_t a = 0; a < 100; a++)
 	{
-		for (size_t b = 0; b < N; b++)
+		for (size_t b = 0; b < 100; b++)
 		{
 			//Check each cell that is alive alongside it neighbors
 			if (cell.GetState(true))
@@ -122,9 +122,9 @@ void Grid::CheckCell(size_t a, size_t b)
 
 void Grid::Update()
 {
-	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
+	for (size_t i = 0; i < 100; i++) //for(int i = 0; i < 100; i++)
 	{
-		for (size_t j = 0; j < N; j++) //for(int j = 0; j < 100; j++)
+		for (size_t j = 0; j < 100; j++) //for(int j = 0; j < 100; j++)
 		{
 			CheckCell(i,j); 
 		}

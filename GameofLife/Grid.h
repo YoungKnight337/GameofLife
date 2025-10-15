@@ -9,8 +9,8 @@ class Cell cell;
 class Grid
 {
 private:
-	const size_t N = 100;
-	int** grid = new int*[N];
+	//const size_t N = 100;
+	grid = new Cell[100][100];
 	//int grid = new int [100][100];
 
 public:
