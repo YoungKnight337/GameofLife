@@ -37,7 +37,6 @@ void Grid::Seed()
 	float j_y = cell.GetPosition().y;
 
 	//cell[GetHeight][GetWidth]
-	//cell[GetHeight][GetWidth].SetState(true);
 
 	//Plant Active Cells within the Grid
 	
@@ -54,6 +53,7 @@ void Grid::Seed()
 		{
 			{i_x, j_y;}
 			int r_value = GetRandomValue(0, 100);
+			bool c_state = GetRandomValue(0, 1);
 			cell.SetState(true); //cell[i][j].SetState(true);
 			cell.SetState(false);
 		}
