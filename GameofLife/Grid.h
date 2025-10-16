@@ -11,7 +11,6 @@ class Grid
 private:
 	const int N = 100; 
 	Cell* grid = new Cell [N];
-	//grid = new Cell[100][100];
 
 public:
 	Grid();
