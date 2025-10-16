@@ -9,8 +9,9 @@ class Cell cell;
 class Grid
 {
 private:
-	//const size_t N = 100;
-	cell_array = new Cell[100][100];
+	const int N = 100; 
+	Cell* grid = new Cell [N];
+	//grid = new Cell[100][100];
 
 public:
 	Grid();
