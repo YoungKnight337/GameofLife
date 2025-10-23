@@ -9,7 +9,7 @@ class Cell cell;
 class Grid
 {
 private:
-	const int N = 100; 
+	size_t N = 100; //const int N = 100;
 	Cell* grid = new Cell [N];
 
 public:
