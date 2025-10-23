@@ -6,8 +6,6 @@ Cell::Cell()
 
 	if (active)
 		color = BLACK;
-	else
-		color = WHITE;
 }
 
 Cell::~Cell()
