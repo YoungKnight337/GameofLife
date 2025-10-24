@@ -71,7 +71,14 @@ void Grid::Rules(size_t a, size_t b)
 	{
 		for (size_t b = 0; b < N; b++)
 		{
-			//Check each cell that is alive alongside it neighbors
+			cell.Rules();
+		}
+	}
+
+}
+
+/*
+	//Check each cell that is alive alongside it neighbors
 			if (cell.GetState(true))
 			{
 				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive;
@@ -88,11 +95,7 @@ void Grid::Rules(size_t a, size_t b)
 				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive; 
 					cell.SetState(true); 
 			}
-		}
-	}
-
-}
-
+*/
 
 void Grid::CheckCell(size_t a, size_t b)
 {

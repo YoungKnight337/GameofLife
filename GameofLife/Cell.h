@@ -18,6 +18,7 @@ public:
 	Cell();
 	~Cell();
 	void Draw();
+	void Rules();
 	int GetHeight() { return height; }
 	int GetWidth()	{ return width;  }
 	int AddNeighbor();
