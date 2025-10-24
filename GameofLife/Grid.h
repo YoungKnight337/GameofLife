@@ -10,7 +10,7 @@ class Grid
 {
 private:
 	size_t N = 100; //const int N = 100;
-	Cell* grid = new Cell [N];
+	Cell* grid = new Cell[N * N];
 
 public:
 	Grid();
