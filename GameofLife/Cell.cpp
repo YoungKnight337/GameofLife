@@ -10,7 +10,6 @@ Cell::Cell()
 
 Cell::~Cell()
 {
-
 }
 
 void Cell::Draw()
