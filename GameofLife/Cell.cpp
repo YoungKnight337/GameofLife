@@ -25,6 +25,19 @@ int Cell::AddNeighbor()
 			if (active == true)
 				a_neighbors++;
 	}
+
+	if (active)
+	{
+		if (a_neighbors == 3 || a_neighbors == 2)
+			active = true;
+		if (a_neighbors < 2 || a_neighbors > 3)
+			active = false;
+	}
+	else
+	{
+		if (a_neighbors == 3)
+			active = true;
+	}
 	//Return an array of neighboring blocks
 	//return neighbors[i];
 	//GetNeighbors();
@@ -37,6 +50,7 @@ int Cell::AddNeighbor()
 	//Meanwhile one in a corner would only have 3.
 	//There are many ways of approaching this problem, so take a few minutes to devise a good algorithm, and then try to implement it.
 }
+
 
 
 
