@@ -22,7 +22,7 @@ int Cell::AddNeighbor()
 {
 	for (int i = 0; i < 8; i++)
 	{
-		if (a_neighbors)
+		if (neighbors)
 			if (active == true)
 				a_neighbors++;
 	}
