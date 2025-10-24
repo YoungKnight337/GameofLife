@@ -102,19 +102,19 @@ void Grid::CheckCell(size_t a, size_t b)
 
 	if (cell.GetHeight() + 1 < N)
 	{
-		grid[cell.GetWidth()][cell.GetHeight() + 1]; //grid[a][b]; grid[width][height+1]
+		grid[cell.GetWidth()][cell.GetHeight() + 1]; //grid[width][height+1]
 	}
 	if (cell.GetHeight() - 1 >= 0)
 	{
-		grid[cell.GetWidth()][cell.GetHeight() - 1]; //grid[a][b]; grid[width][height-1]
+		grid[cell.GetWidth()][cell.GetHeight() - 1]; //grid[width][height-1]
 	}
 	if (cell.GetWidth() + 1 < N)
 	{
-		grid[cell.GetWidth() + 1][cell.GetHeight()]; //grid[a][b]; grid[width+1][height]
+		grid[cell.GetWidth() + 1][cell.GetHeight()]; //grid[width+1][height]
 	}
 	if (cell.GetWidth() - 1 >= 0)
 	{
-		grid[cell.GetWidth() - 1][cell.GetHeight()]; //grid[a][b]; grid[width-1][height]
+		grid[cell.GetWidth() - 1][cell.GetHeight()]; //grid[width-1][height]
 	}
 	
 	Rules(a,b);
