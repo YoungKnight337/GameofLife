@@ -60,9 +60,8 @@ void Grid::Seed()
 	}
 }
 
-//IS CELL NEIGHBOR 
-//IS CELL ACTIVE
-//IF SO ADD TO A_NEIGHBORS LIST
+//IS CELL NEIGHBOR and IS CELL ACTIVE
+//	IF SO ADD TO A_NEIGHBORS LIST
 
 //Maybe shift some responsability to cell class they track the neighbors the Grid tracks the state of the neighbors?
 void Grid::Rules(size_t a, size_t b)
