@@ -76,26 +76,6 @@ void Grid::Rules(size_t a, size_t b)
 
 }
 
-/*
-	//Check each cell that is alive alongside it neighbors
-			if (cell.GetState(true))
-			{
-				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive;
-					cell.SetState(true); 
-				if (cell.GetNeighbor() == 2) //2 active neighbors -> alive; 
-					cell.SetState(true); 
-				if (cell.GetNeighbor() <  2) //Less than 2 active cells -> dead; 
-					cell.SetState(false); 
-				if (cell.GetNeighbor() >  3) //More than 3 active cells -> dead; 
-					cell.SetState(false); 
-			}
-			else
-			{
-				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive; 
-					cell.SetState(true); 
-			}
-*/
-
 void Grid::CheckCell(size_t a, size_t b)
 {
 	//[Blackhalo117]
@@ -170,4 +150,22 @@ void Grid::Update()
 		}
 */
 
-
+/*
+	//Check each cell that is alive alongside it neighbors
+			if (cell.GetState(true))
+			{
+				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive;
+					cell.SetState(true);
+				if (cell.GetNeighbor() == 2) //2 active neighbors -> alive;
+					cell.SetState(true);
+				if (cell.GetNeighbor() <  2) //Less than 2 active cells -> dead;
+					cell.SetState(false);
+				if (cell.GetNeighbor() >  3) //More than 3 active cells -> dead;
+					cell.SetState(false);
+			}
+			else
+			{
+				if (cell.GetNeighbor() == 3) //3 active neighbors -> alive;
+					cell.SetState(true);
+			}
+*/
