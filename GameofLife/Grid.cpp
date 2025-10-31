@@ -10,9 +10,9 @@ Grid::~Grid()
 
 void Grid::Iniitialize()
 {	
-	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
+	for (size_t i = 0; i < N; i++) 
 	{
-		for (size_t j = 0; j < N; j++) //for(int j = 0; j < 100; j++)
+		for (size_t j = 0; j < N; j++) 
 		{
 			cell;
 			Seed();
@@ -22,9 +22,9 @@ void Grid::Iniitialize()
 
 void Grid::Draw()
 {
-	for (size_t i = 0; i < N; i++) //for(int i = 0; i < 100; i++)
+	for (size_t i = 0; i < N; i++) 
 	{
-		for (size_t j = 0; j < N ; j++) //for(int j = 0; j < 100; j++)
+		for (size_t j = 0; j < N ; j++) 
 		{
 			cell.Draw(); 
 		}
